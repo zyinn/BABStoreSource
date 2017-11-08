@@ -9,7 +9,7 @@
     <repositories>
         <repository>
             <id>fa center</id>
-            <url>http://172.16.87.5:8081/content/groups/public</url>
+            <url>http://localhost:8081/content/groups/public</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
