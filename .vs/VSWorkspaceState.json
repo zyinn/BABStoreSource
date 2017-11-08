@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\store_server",
+    "\\store_server\\src",
+    "\\store_server\\src\\main",
+    "\\store_server\\src\\main\\webapp",
+    "\\store_server\\src\\main\\webapp\\src",
+    "\\store_server\\src\\main\\webapp\\src\\public"
+  ],
+  "SelectedNode": "\\store_server\\src\\main\\webapp\\src\\public\\config.js",
+  "PreviewInSolutionExplorer": false
+}

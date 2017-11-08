@@ -1,0 +1,6 @@
+<div layout="row">
+    <input-button-selector flex="{{$ctrl.selectorFlex}}" md-theme="{{$ctrl.theme}}" vm-changed="$ctrl.onSelectorChange()" item-source = "$ctrl.selectorItems" ng-model ="$ctrl.selectorModel"  label="{{$ctrl.label}}"
+        has-select-all-button=true vm-type="Object" display-path="name"></input-button-selector>
+    <input-date-picker-range ng-if="$ctrl.showDatePicker" ctrl-flex="$ctrl.ctrlFlex" flex ="{{$ctrl.dateFlex}}" vm-changed="$ctrl.onDateChanged()" md-theme="{{$ctrl.theme}}" ng-model="$ctrl.dateModel"
+        ></input-date-picker-range>
+</div>

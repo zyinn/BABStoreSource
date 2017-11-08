@@ -1,0 +1,33 @@
+<md-dialog aria-label="{{$ctrl.title || 'Dialog'}}" aria-label="dialog" md-theme="{{$ctrl.theme}}" role="dialog"
+           md-colors="::{backgroundColor: '{{$ctrl.theme}}-background-700'}" class="grid_excel_import_dialog">
+	<form ng-cloak>
+		<md-toolbar>
+			<div class="md-toolbar-tools">
+				<h2 ng-bind="$ctrl.title"></h2>
+				<span flex></span>
+				<md-button md-no-ink class="md-icon-button" ng-click="$ctrl.$onClickCancel($event)">
+					<md-icon class="ss-icon ss-icon-close" aria-label="Close dialog"></md-icon>
+				</md-button>
+			</div>
+		</md-toolbar>
+		<md-dialog-content ng-style="$ctrl.contentStyle">
+			<grid-excel-import>
+				<div layout="row">
+					<input type="text" class="ss-input-text ss-input-text-sm file-name" ng-class="{warning: $ctrl.fileName === '请选择正确的文件格式'}" disabled ng-model="$ctrl.fileName">
+					<label for="file" class="file-btn">选择文件</label>
+					<input id="file" type="file" onchange="angular.element(this).scope().$ctrl.handleFiles(this.files)" accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.ms-excel">
+					<a href="./import/ruku.zip">模板下载</a>
+				</div>
+				<div class="" layout="row" ng-if="gridOptions">
+					<div ui-grid="gridOptions" class="grid ui-grid" ui-grid-edit ui-grid-pinning ui-grid-cellNav></div>
+				</div>
+			</grid-excel-import>
+		</md-dialog-content>
+		<md-dialog-actions layout="column" layout-align="start stretch">
+			<div layout="row" layout-align="center center">
+				<md-button md-no-ink class="md-raised md-primary" ng-click="$ctrl.$onClickOk($event)">确定</md-button>
+				<md-button md-no-ink class="md-raised md-primary" ng-click="$ctrl.$onClickCancel($event)">取消</md-button>
+			</div>
+		</md-dialog-actions>
+	</form>
+</md-dialog>

@@ -1,0 +1,2039 @@
+{
+    "result": [
+        {
+            "priceMargin": [
+                {
+                    "quotePriceType": "GG",
+                    "straightStickPrices": {
+                        "maxPrice": 4.780,
+                        "minPrice": 3.258,
+                        "avgPrice": 4.233
+                    },
+                    "notesPostedPrices": {
+                        "maxPrice": 4.780,
+                        "minPrice": 3.258,
+                        "avgPrice": 4.233
+                    },
+                    "minMargin": -2,
+                    "maxMargin": 2,
+                    "difference": "FALL"
+                },
+                {
+                    "quotePriceType": "CS",
+                    "straightStickPrices": {
+                        "maxPrice": 5.980,
+                        "minPrice": 2.559,
+                        "avgPrice": 4.588
+                    },
+                    "notesPostedPrices": {
+                        "maxPrice": 5.980,
+                        "minPrice": 2.559,
+                        "avgPrice": 4.588
+                    },
+                    "minMargin": -2,
+                    "maxMargin": 2,
+                    "difference": "FALL"
+                },
+                {
+                    "quotePriceType": "NS",
+                    "straightStickPrices": {
+                        "maxPrice": 5.980,
+                        "minPrice": 2.559,
+                        "avgPrice": 4.350
+                    },
+                    "notesPostedPrices": {
+                        "maxPrice": 5.980,
+                        "minPrice": 2.559,
+                        "avgPrice": 4.350
+                    },
+                    "minMargin": -2,
+                    "maxMargin": 2,
+                    "difference": "FALL"
+                },
+                {
+                    "quotePriceType": "NX",
+                    "straightStickPrices": {
+                        "maxPrice": 4.660,
+                        "minPrice": 4.660,
+                        "avgPrice": 4.660
+                    },
+                    "notesPostedPrices": {
+                        "maxPrice": 4.660,
+                        "minPrice": 4.660,
+                        "avgPrice": 4.660
+                    },
+                    "minMargin": -1,
+                    "maxMargin": 2,
+                    "difference": "FALL"
+                },
+                {
+                    "quotePriceType": "NH",
+                    "straightStickPrices": {
+                        "maxPrice": 4.660,
+                        "minPrice": 3.123,
+                        "avgPrice": 4.049
+                    },
+                    "notesPostedPrices": {
+                        "maxPrice": 4.660,
+                        "minPrice": 3.123,
+                        "avgPrice": 4.049
+                    },
+                    "minMargin": -2,
+                    "maxMargin": 2,
+                    "difference": "FALL"
+                },
+                {
+                    "quotePriceType": "CZ",
+                    "straightStickPrices": {
+                        "maxPrice": 4.780,
+                        "minPrice": 3.980,
+                        "avgPrice": 4.380
+                    },
+                    "notesPostedPrices": {
+                        "maxPrice": 4.780,
+                        "minPrice": 3.980,
+                        "avgPrice": 4.380
+                    },
+                    "minMargin": -2,
+                    "maxMargin": 2,
+                    "difference": "FALL"
+                },
+                {
+                    "quotePriceType": "WZ",
+                    "straightStickPrices": {
+                        "maxPrice": 5.540,
+                        "minPrice": 2.559,
+                        "avgPrice": 3.786
+                    },
+                    "notesPostedPrices": {
+                        "maxPrice": 5.540,
+                        "minPrice": 2.559,
+                        "avgPrice": 3.786
+                    },
+                    "minMargin": -3,
+                    "maxMargin": 2,
+                    "difference": "FALL"
+                },
+                {
+                    "quotePriceType": "CW",
+                    "straightStickPrices": {
+                        "maxPrice": 5.540,
+                        "minPrice": 3.123,
+                        "avgPrice": 3.908
+                    },
+                    "notesPostedPrices": {
+                        "maxPrice": 5.540,
+                        "minPrice": 3.123,
+                        "avgPrice": 3.908
+                    },
+                    "minMargin": -2,
+                    "maxMargin": 2,
+                    "difference": "FALL"
+                }
+            ],
+            "currentPriceTrendsSSC": [
+                {
+                    "id": "278d517d58c9444698298f5d3affacb4",
+                    "quoteDate": 1486521000001,
+                    "quotePriceType": "GG",
+                    "minorFlag": false,
+                    "billMedium": "PAP",
+                    "billType": "BKB",
+                    "quoteType": "SSC",
+                    "priceMax": 5.980,
+                    "priceAvg": 4.162,
+                    "priceMin": 2.559,
+                    "createDatetime": 1486521000190,
+                    "signCode": null
+                },
+                {
+                    "id": "4d75da25f25c4d938e4c7d48960bf24f",
+                    "quoteDate": 1486521000001,
+                    "quotePriceType": "CS",
+                    "minorFlag": false,
+                    "billMedium": "PAP",
+                    "billType": "BKB",
+                    "quoteType": "SSC",
+                    "priceMax": 5.980,
+                    "priceAvg": 4.588,
+                    "priceMin": 2.559,
+                    "createDatetime": 1486521000190,
+                    "signCode": null
+                },
+                {
+                    "id": "3ef2c930ad794df9a9de72c34dd28529",
+                    "quoteDate": 1486521000001,
+                    "quotePriceType": "NS",
+                    "minorFlag": false,
+                    "billMedium": "PAP",
+                    "billType": "BKB",
+                    "quoteType": "SSC",
+                    "priceMax": 5.980,
+                    "priceAvg": 4.350,
+                    "priceMin": 2.559,
+                    "createDatetime": 1486521000190,
+                    "signCode": null
+                },
+                {
+                    "id": "dc67069e2ec244059e4cd3ef2e90eafd",
+                    "quoteDate": 1486521000001,
+                    "quotePriceType": "NX",
+                    "minorFlag": false,
+                    "billMedium": "PAP",
+                    "billType": "BKB",
+                    "quoteType": "SSC",
+                    "priceMax": 5.980,
+                    "priceAvg": 4.288,
+                    "priceMin": 2.559,
+                    "createDatetime": 1486521000190,
+                    "signCode": null
+                },
+                {
+                    "id": "bae6425031be4167843bdc6b71e43510",
+                    "quoteDate": 1486521000001,
+                    "quotePriceType": "NH",
+                    "minorFlag": false,
+                    "billMedium": "PAP",
+                    "billType": "BKB",
+                    "quoteType": "SSC",
+                    "priceMax": 5.540,
+                    "priceAvg": 4.107,
+                    "priceMin": 2.559,
+                    "createDatetime": 1486521000190,
+                    "signCode": null
+                },
+                {
+                    "id": "7d09d24711b54104a2fee509b5422c53",
+                    "quoteDate": 1486521000001,
+                    "quotePriceType": "CZ",
+                    "minorFlag": false,
+                    "billMedium": "PAP",
+                    "billType": "BKB",
+                    "quoteType": "SSC",
+                    "priceMax": 5.980,
+                    "priceAvg": 4.865,
+                    "priceMin": 2.559,
+                    "createDatetime": 1486521000190,
+                    "signCode": null
+                },
+                {
+                    "id": "6ed476697bf0474c9f188b5d65c46f23",
+                    "quoteDate": 1486521000001,
+                    "quotePriceType": "WZ",
+                    "minorFlag": false,
+                    "billMedium": "PAP",
+                    "billType": "BKB",
+                    "quoteType": "SSC",
+                    "priceMax": 5.980,
+                    "priceAvg": 4.487,
+                    "priceMin": 2.559,
+                    "createDatetime": 1486521000190,
+                    "signCode": null
+                },
+                {
+                    "id": "42f6f294fb8d47dbadb513a45e67302e",
+                    "quoteDate": 1486521000001,
+                    "quotePriceType": "CW",
+                    "minorFlag": false,
+                    "billMedium": "PAP",
+                    "billType": "BKB",
+                    "quoteType": "SSC",
+                    "priceMax": 5.980,
+                    "priceAvg": 4.278,
+                    "priceMin": 2.559,
+                    "createDatetime": 1486521000190,
+                    "signCode": null
+                }
+            ],
+            "currentPriceTrendsNPC": [
+                {
+                    "id": "f988c5c9f08a4bf2b55471beb49cc303",
+                    "quoteDate": 1486521000001,
+                    "quotePriceType": "GG",
+                    "minorFlag": false,
+                    "billMedium": "PAP",
+                    "billType": "BKB",
+                    "quoteType": "NPC",
+                    "priceMax": 4.780,
+                    "priceAvg": 4.233,
+                    "priceMin": 3.258,
+                    "createDatetime": 1486521000190,
+                    "signCode": null
+                },
+                {
+                    "id": "efde1fb40d9e4685af9381b3890dd449",
+                    "quoteDate": 1486521000001,
+                    "quotePriceType": "CS",
+                    "minorFlag": false,
+                    "billMedium": "PAP",
+                    "billType": "BKB",
+                    "quoteType": "NPC",
+                    "priceMax": 5.540,
+                    "priceAvg": 4.113,
+                    "priceMin": 2.559,
+                    "createDatetime": 1486521000190,
+                    "signCode": null
+                },
+                {
+                    "id": "18cf2e32e8454df7a666dc51e92a3f18",
+                    "quoteDate": 1486521000001,
+                    "quotePriceType": "NS",
+                    "minorFlag": false,
+                    "billMedium": "PAP",
+                    "billType": "BKB",
+                    "quoteType": "NPC",
+                    "priceMax": 5.540,
+                    "priceAvg": 4.086,
+                    "priceMin": 2.559,
+                    "createDatetime": 1486521000190,
+                    "signCode": null
+                },
+                {
+                    "id": "7bfb2e5f737446da9ede17cf47d33f6a",
+                    "quoteDate": 1486521000001,
+                    "quotePriceType": "NX",
+                    "minorFlag": false,
+                    "billMedium": "PAP",
+                    "billType": "BKB",
+                    "quoteType": "NPC",
+                    "priceMax": 4.660,
+                    "priceAvg": 4.660,
+                    "priceMin": 4.660,
+                    "createDatetime": 1486521000190,
+                    "signCode": null
+                },
+                {
+                    "id": "fb120a72f0bb4ed9b51a92bb3e3cbb08",
+                    "quoteDate": 1486521000001,
+                    "quotePriceType": "NH",
+                    "minorFlag": false,
+                    "billMedium": "PAP",
+                    "billType": "BKB",
+                    "quoteType": "NPC",
+                    "priceMax": 5.540,
+                    "priceAvg": 4.501,
+                    "priceMin": 3.258,
+                    "createDatetime": 1486521000190,
+                    "signCode": null
+                },
+                {
+                    "id": "a6f2770d9cdd4cbebfeb4915d4f1a67b",
+                    "quoteDate": 1486521000001,
+                    "quotePriceType": "CZ",
+                    "minorFlag": false,
+                    "billMedium": "PAP",
+                    "billType": "BKB",
+                    "quoteType": "NPC",
+                    "priceMax": 5.980,
+                    "priceAvg": 3.780,
+                    "priceMin": 2.559,
+                    "createDatetime": 1486521000190,
+                    "signCode": null
+                },
+                {
+                    "id": "751c1e8e79d54f45872d81248f9e6933",
+                    "quoteDate": 1486521000001,
+                    "quotePriceType": "WZ",
+                    "minorFlag": false,
+                    "billMedium": "PAP",
+                    "billType": "BKB",
+                    "quoteType": "NPC",
+                    "priceMax": 5.540,
+                    "priceAvg": 3.786,
+                    "priceMin": 2.559,
+                    "createDatetime": 1486521000190,
+                    "signCode": null
+                },
+                {
+                    "id": "1ea834dc87c84811a276841b2dfce7d0",
+                    "quoteDate": 1486521000001,
+                    "quotePriceType": "CW",
+                    "minorFlag": false,
+                    "billMedium": "PAP",
+                    "billType": "BKB",
+                    "quoteType": "NPC",
+                    "priceMax": 5.980,
+                    "priceAvg": 4.255,
+                    "priceMin": 3.123,
+                    "createDatetime": 1486521000190,
+                    "signCode": null
+                }
+            ],
+            "currentShiborPrice": [
+                {
+                    "period": "SHIBOR_O/N",
+                    "price": null,
+                    "date": null,
+                    "margin": 0
+                },
+                {
+                    "period": "SHIBOR_1W",
+                    "price": null,
+                    "date": null,
+                    "margin": 0
+                },
+                {
+                    "period": "SHIBOR_2W",
+                    "price": null,
+                    "date": null,
+                    "margin": 0
+                },
+                {
+                    "period": "SHIBOR_1M",
+                    "price": null,
+                    "date": null,
+                    "margin": 0
+                },
+                {
+                    "period": "SHIBOR_3M",
+                    "price": null,
+                    "date": null,
+                    "margin": 0
+                },
+                {
+                    "period": "SHIBOR_6M",
+                    "price": null,
+                    "date": null,
+                    "margin": 0
+                },
+                {
+                    "period": "SHIBOR_9M",
+                    "price": null,
+                    "date": null,
+                    "margin": 0
+                },
+                {
+                    "period": "SHIBOR_1Y",
+                    "price": null,
+                    "date": null,
+                    "margin": 0
+                }
+            ],
+            "priceHistory": {
+                "priceTrendsHistory": [],
+                "shiborHistory": [
+                    {
+                        "period": "SHIBOR_O/N",
+                        "price": null,
+                        "date": 1483833600000
+                    },
+                    {
+                        "period": "SHIBOR_O/N",
+                        "price": 2.094,
+                        "date": 1483920000000
+                    },
+                    {
+                        "period": "SHIBOR_O/N",
+                        "price": 2.096,
+                        "date": 1484006400000
+                    },
+                    {
+                        "period": "SHIBOR_O/N",
+                        "price": 2.104,
+                        "date": 1484092800000
+                    },
+                    {
+                        "period": "SHIBOR_O/N",
+                        "price": 2.103,
+                        "date": 1484179200000
+                    },
+                    {
+                        "period": "SHIBOR_O/N",
+                        "price": 2.104,
+                        "date": 1484265600000
+                    },
+                    {
+                        "period": "SHIBOR_O/N",
+                        "price": null,
+                        "date": 1484352000000
+                    },
+                    {
+                        "period": "SHIBOR_O/N",
+                        "price": null,
+                        "date": 1484438400000
+                    },
+                    {
+                        "period": "SHIBOR_O/N",
+                        "price": 2.142,
+                        "date": 1484524800000
+                    },
+                    {
+                        "period": "SHIBOR_O/N",
+                        "price": 2.2563,
+                        "date": 1484611200000
+                    },
+                    {
+                        "period": "SHIBOR_O/N",
+                        "price": 2.328,
+                        "date": 1484697600000
+                    },
+                    {
+                        "period": "SHIBOR_O/N",
+                        "price": 2.364,
+                        "date": 1484784000000
+                    },
+                    {
+                        "period": "SHIBOR_O/N",
+                        "price": 2.376,
+                        "date": 1484870400000
+                    },
+                    {
+                        "period": "SHIBOR_O/N",
+                        "price": null,
+                        "date": 1484956800000
+                    },
+                    {
+                        "period": "SHIBOR_O/N",
+                        "price": 2.189,
+                        "date": 1485043200000
+                    },
+                    {
+                        "period": "SHIBOR_O/N",
+                        "price": 2.175,
+                        "date": 1485129600000
+                    },
+                    {
+                        "period": "SHIBOR_O/N",
+                        "price": 2.164,
+                        "date": 1485216000000
+                    },
+                    {
+                        "period": "SHIBOR_O/N",
+                        "price": 2.165,
+                        "date": 1485302400000
+                    },
+                    {
+                        "period": "SHIBOR_O/N",
+                        "price": 2.5293,
+                        "date": 1485388800000
+                    },
+                    {
+                        "period": "SHIBOR_O/N",
+                        "price": null,
+                        "date": 1485475200000
+                    },
+                    {
+                        "period": "SHIBOR_O/N",
+                        "price": null,
+                        "date": 1485561600000
+                    },
+                    {
+                        "period": "SHIBOR_O/N",
+                        "price": null,
+                        "date": 1485648000000
+                    },
+                    {
+                        "period": "SHIBOR_O/N",
+                        "price": null,
+                        "date": 1485734400000
+                    },
+                    {
+                        "period": "SHIBOR_O/N",
+                        "price": null,
+                        "date": 1485820800000
+                    },
+                    {
+                        "period": "SHIBOR_O/N",
+                        "price": null,
+                        "date": 1485907200000
+                    },
+                    {
+                        "period": "SHIBOR_O/N",
+                        "price": null,
+                        "date": 1485993600000
+                    },
+                    {
+                        "period": "SHIBOR_O/N",
+                        "price": 2.218,
+                        "date": 1486080000000
+                    },
+                    {
+                        "period": "SHIBOR_O/N",
+                        "price": 2.2571,
+                        "date": 14200086166400000
+                    },
+                    {
+                        "period": "SHIBOR_O/N",
+                        "price": null,
+                        "date": 1486252800000
+                    },
+                    {
+                        "period": "SHIBOR_O/N",
+                        "price": 2.278,
+                        "date": 1486339200000
+                    },
+                    {
+                        "period": "SHIBOR_O/N",
+                        "price": 2.281,
+                        "date": 1486425600000
+                    },
+                    {
+                        "period": "SHIBOR_1W",
+                        "price": null,
+                        "date": 1483833600000
+                    },
+                    {
+                        "period": "SHIBOR_1W",
+                        "price": 2.41,
+                        "date": 1483920000000
+                    },
+                    {
+                        "period": "SHIBOR_1W",
+                        "price": 2.399,
+                        "date": 1484006400000
+                    },
+                    {
+                        "period": "SHIBOR_1W",
+                        "price": 2.39,
+                        "date": 1484092800000
+                    },
+                    {
+                        "period": "SHIBOR_1W",
+                        "price": 2.394,
+                        "date": 1484179200000
+                    },
+                    {
+                        "period": "SHIBOR_1W",
+                        "price": 2.398,
+                        "date": 1484265600000
+                    },
+                    {
+                        "period": "SHIBOR_1W",
+                        "price": null,
+                        "date": 1484352000000
+                    },
+                    {
+                        "period": "SHIBOR_1W",
+                        "price": null,
+                        "date": 1484438400000
+                    },
+                    {
+                        "period": "SHIBOR_1W",
+                        "price": 2.4239,
+                        "date": 1484524800000
+                    },
+                    {
+                        "period": "SHIBOR_1W",
+                        "price": 2.4666,
+                        "date": 1484611200000
+                    },
+                    {
+                        "period": "SHIBOR_1W",
+                        "price": 2.5042,
+                        "date": 1484697600000
+                    },
+                    {
+                        "period": "SHIBOR_1W",
+                        "price": 2.538,
+                        "date": 1484784000000
+                    },
+                    {
+                        "period": "SHIBOR_1W",
+                        "price": 2.593,
+                        "date": 1484870400000
+                    },
+                    {
+                        "period": "SHIBOR_1W",
+                        "price": null,
+                        "date": 1484956800000
+                    },
+                    {
+                        "period": "SHIBOR_1W",
+                        "price": 2.607,
+                        "date": 1485043200000
+                    },
+                    {
+                        "period": "SHIBOR_1W",
+                        "price": 2.637,
+                        "date": 1485129600000
+                    },
+                    {
+                        "period": "SHIBOR_1W",
+                        "price": 2.662,
+                        "date": 1485216000000
+                    },
+                    {
+                        "period": "SHIBOR_1W",
+                        "price": 2.684,
+                        "date": 1485302400000
+                    },
+                    {
+                        "period": "SHIBOR_1W",
+                        "price": 2.691,
+                        "date": 1485388800000
+                    },
+                    {
+                        "period": "SHIBOR_1W",
+                        "price": null,
+                        "date": 1485475200000
+                    },
+                    {
+                        "period": "SHIBOR_1W",
+                        "price": null,
+                        "date": 1485561600000
+                    },
+                    {
+                        "period": "SHIBOR_1W",
+                        "price": null,
+                        "date": 1485648000000
+                    },
+                    {
+                        "period": "SHIBOR_1W",
+                        "price": null,
+                        "date": 1485734400000
+                    },
+                    {
+                        "period": "SHIBOR_1W",
+                        "price": null,
+                        "date": 1485820800000
+                    },
+                    {
+                        "period": "SHIBOR_1W",
+                        "price": null,
+                        "date": 1485907200000
+                    },
+                    {
+                        "period": "SHIBOR_1W",
+                        "price": null,
+                        "date": 1485993600000
+                    },
+                    {
+                        "period": "SHIBOR_1W",
+                        "price": 2.652,
+                        "date": 1486080000000
+                    },
+                    {
+                        "period": "SHIBOR_1W",
+                        "price": 2.648,
+                        "date": 1486166400000
+                    },
+                    {
+                        "period": "SHIBOR_1W",
+                        "price": null,
+                        "date": 1486252800000
+                    },
+                    {
+                        "period": "SHIBOR_1W",
+                        "price": 2.628,
+                        "date": 1486339200000
+                    },
+                    {
+                        "period": "SHIBOR_1W",
+                        "price": 2.6283,
+                        "date": 1486425600000
+                    },
+                    {
+                        "period": "SHIBOR_2W",
+                        "price": null,
+                        "date": 1483833600000
+                    },
+                    {
+                        "period": "SHIBOR_2W",
+                        "price": 2.765,
+                        "date": 1483920000000
+                    },
+                    {
+                        "period": "SHIBOR_2W",
+                        "price": 2.762,
+                        "date": 1484006400000
+                    },
+                    {
+                        "period": "SHIBOR_2W",
+                        "price": 2.753,
+                        "date": 1484092800000
+                    },
+                    {
+                        "period": "SHIBOR_2W",
+                        "price": 2.743,
+                        "date": 1484179200000
+                    },
+                    {
+                        "period": "SHIBOR_2W",
+                        "price": 2.7626,
+                        "date": 1484265600000
+                    },
+                    {
+                        "period": "SHIBOR_2W",
+                        "price": null,
+                        "date": 1484352000000
+                    },
+                    {
+                        "period": "SHIBOR_2W",
+                        "price": null,
+                        "date": 1484438400000
+                    },
+                    {
+                        "period": "SHIBOR_2W",
+                        "price": 2.7815,
+                        "date": 1484524800000
+                    },
+                    {
+                        "period": "SHIBOR_2W",
+                        "price": 2.8076,
+                        "date": 1484611200000
+                    },
+                    {
+                        "period": "SHIBOR_2W",
+                        "price": 2.855,
+                        "date": 1484697600000
+                    },
+                    {
+                        "period": "SHIBOR_2W",
+                        "price": 2.9544,
+                        "date": 1484784000000
+                    },
+                    {
+                        "period": "SHIBOR_2W",
+                        "price": 3.0077,
+                        "date": 1484870400000
+                    },
+                    {
+                        "period": "SHIBOR_2W",
+                        "price": null,
+                        "date": 1484956800000
+                    },
+                    {
+                        "period": "SHIBOR_2W",
+                        "price": 3.0131,
+                        "date": 1485043200000
+                    },
+                    {
+                        "period": "SHIBOR_2W",
+                        "price": 3.0215,
+                        "date": 1485129600000
+                    },
+                    {
+                        "period": "SHIBOR_2W",
+                        "price": 3.0385,
+                        "date": 1485216000000
+                    },
+                    {
+                        "period": "SHIBOR_2W",
+                        "price": 3.0672,
+                        "date": 1485302400000
+                    },
+                    {
+                        "period": "SHIBOR_2W",
+                        "price": 3.1763,
+                        "date": 1485388800000
+                    },
+                    {
+                        "period": "SHIBOR_2W",
+                        "price": null,
+                        "date": 1485475200000
+                    },
+                    {
+                        "period": "SHIBOR_2W",
+                        "price": null,
+                        "date": 1485561600000
+                    },
+                    {
+                        "period": "SHIBOR_2W",
+                        "price": null,
+                        "date": 1485648000000
+                    },
+                    {
+                        "period": "SHIBOR_2W",
+                        "price": null,
+                        "date": 1485734400000
+                    },
+                    {
+                        "period": "SHIBOR_2W",
+                        "price": null,
+                        "date": 1485820800000
+                    },
+                    {
+                        "period": "SHIBOR_2W",
+                        "price": null,
+                        "date": 1485907200000
+                    },
+                    {
+                        "period": "SHIBOR_2W",
+                        "price": null,
+                        "date": 1485993600000
+                    },
+                    {
+                        "period": "SHIBOR_2W",
+                        "price": 3.0675,
+                        "date": 1486080000000
+                    },
+                    {
+                        "period": "SHIBOR_2W",
+                        "price": 3.0434,
+                        "date": 1486166400000
+                    },
+                    {
+                        "period": "SHIBOR_2W",
+                        "price": null,
+                        "date": 1486252800000
+                    },
+                    {
+                        "period": "SHIBOR_2W",
+                        "price": 3.0562,
+                        "date": 1486339200000
+                    },
+                    {
+                        "period": "SHIBOR_2W",
+                        "price": 3.067,
+                        "date": 1486425600000
+                    },
+                    {
+                        "period": "SHIBOR_1M",
+                        "price": null,
+                        "date": 1483833600000
+                    },
+                    {
+                        "period": "SHIBOR_1M",
+                        "price": 3.4738,
+                        "date": 1483920000000
+                    },
+                    {
+                        "period": "SHIBOR_1M",
+                        "price": 3.5314,
+                        "date": 1484006400000
+                    },
+                    {
+                        "period": "SHIBOR_1M",
+                        "price": 3.5662,
+                        "date": 1484092800000
+                    },
+                    {
+                        "period": "SHIBOR_1M",
+                        "price": 3.6387,
+                        "date": 1484179200000
+                    },
+                    {
+                        "period": "SHIBOR_1M",
+                        "price": 3.6718,
+                        "date": 1484265600000
+                    },
+                    {
+                        "period": "SHIBOR_1M",
+                        "price": null,
+                        "date": 1484352000000
+                    },
+                    {
+                        "period": "SHIBOR_1M",
+                        "price": null,
+                        "date": 1484438400000
+                    },
+                    {
+                        "period": "SHIBOR_1M",
+                        "price": 3.6852,
+                        "date": 1484524800000
+                    },
+                    {
+                        "period": "SHIBOR_1M",
+                        "price": 3.7116,
+                        "date": 1484611200000
+                    },
+                    {
+                        "period": "SHIBOR_1M",
+                        "price": 3.7502,
+                        "date": 1484697600000
+                    },
+                    {
+                        "period": "SHIBOR_1M",
+                        "price": 3.7951,
+                        "date": 1484784000000
+                    },
+                    {
+                        "period": "SHIBOR_1M",
+                        "price": 3.8196,
+                        "date": 1484870400000
+                    },
+                    {
+                        "period": "SHIBOR_1M",
+                        "price": null,
+                        "date": 1484956800000
+                    },
+                    {
+                        "period": "SHIBOR_1M",
+                        "price": 3.808,
+                        "date": 1485043200000
+                    },
+                    {
+                        "period": "SHIBOR_1M",
+                        "price": 3.8118,
+                        "date": 1485129600000
+                    },
+                    {
+                        "period": "SHIBOR_1M",
+                        "price": 3.8142,
+                        "date": 1485216000000
+                    },
+                    {
+                        "period": "SHIBOR_1M",
+                        "price": 3.8295,
+                        "date": 1485302400000
+                    },
+                    {
+                        "period": "SHIBOR_1M",
+                        "price": 3.851,
+                        "date": 1485388800000
+                    },
+                    {
+                        "period": "SHIBOR_1M",
+                        "price": null,
+                        "date": 1485475200000
+                    },
+                    {
+                        "period": "SHIBOR_1M",
+                        "price": null,
+                        "date": 1485561600000
+                    },
+                    {
+                        "period": "SHIBOR_1M",
+                        "price": null,
+                        "date": 1485648000000
+                    },
+                    {
+                        "period": "SHIBOR_1M",
+                        "price": null,
+                        "date": 1485734400000
+                    },
+                    {
+                        "period": "SHIBOR_1M",
+                        "price": null,
+                        "date": 1485820800000
+                    },
+                    {
+                        "period": "SHIBOR_1M",
+                        "price": null,
+                        "date": 1485907200000
+                    },
+                    {
+                        "period": "SHIBOR_1M",
+                        "price": null,
+                        "date": 1485993600000
+                    },
+                    {
+                        "period": "SHIBOR_1M",
+                        "price": 3.8761,
+                        "date": 1486080000000
+                    },
+                    {
+                        "period": "SHIBOR_1M",
+                        "price": 3.8907,
+                        "date": 1486166400000
+                    },
+                    {
+                        "period": "SHIBOR_1M",
+                        "price": null,
+                        "date": 1486252800000
+                    },
+                    {
+                        "period": "SHIBOR_1M",
+                        "price": 3.9031,
+                        "date": 1486339200000
+                    },
+                    {
+                        "period": "SHIBOR_1M",
+                        "price": 3.9304,
+                        "date": 1486425600000
+                    },
+                    {
+                        "period": "SHIBOR_3M",
+                        "price": null,
+                        "date": 1483833600000
+                    },
+                    {
+                        "period": "SHIBOR_3M",
+                        "price": 3.5152,
+                        "date": 1483920000000
+                    },
+                    {
+                        "period": "SHIBOR_3M",
+                        "price": 3.5526,
+                        "date": 1484006400000
+                    },
+                    {
+                        "period": "SHIBOR_3M",
+                        "price": 3.5853,
+                        "date": 1484092800000
+                    },
+                    {
+                        "period": "SHIBOR_3M",
+                        "price": 3.6536,
+                        "date": 1484179200000
+                    },
+                    {
+                        "period": "SHIBOR_3M",
+                        "price": 3.6874,
+                        "date": 1484265600000
+                    },
+                    {
+                        "period": "SHIBOR_3M",
+                        "price": null,
+                        "date": 1484352000000
+                    },
+                    {
+                        "period": "SHIBOR_3M",
+                        "price": null,
+                        "date": 1484438400000
+                    },
+                    {
+                        "period": "SHIBOR_3M",
+                        "price": 3.7018,
+                        "date": 1484524800000
+                    },
+                    {
+                        "period": "SHIBOR_3M",
+                        "price": 3.7222,
+                        "date": 1484611200000
+                    },
+                    {
+                        "period": "SHIBOR_3M",
+                        "price": 3.7491,
+                        "date": 1484697600000
+                    },
+                    {
+                        "period": "SHIBOR_3M",
+                        "price": 3.803,
+                        "date": 1484784000000
+                    },
+                    {
+                        "period": "SHIBOR_3M",
+                        "price": 3.8213,
+                        "date": 1484870400000
+                    },
+                    {
+                        "period": "SHIBOR_3M",
+                        "price": null,
+                        "date": 1484956800000
+                    },
+                    {
+                        "period": "SHIBOR_3M",
+                        "price": 3.8301,
+                        "date": 1485043200000
+                    },
+                    {
+                        "period": "SHIBOR_3M",
+                        "price": 3.8401,
+                        "date": 1485129600000
+                    },
+                    {
+                        "period": "SHIBOR_3M",
+                        "price": 3.8401,
+                        "date": 1485216000000
+                    },
+                    {
+                        "period": "SHIBOR_3M",
+                        "price": 3.8551,
+                        "date": 1485302400000
+                    },
+                    {
+                        "period": "SHIBOR_3M",
+                        "price": 3.8706,
+                        "date": 1485388800000
+                    },
+                    {
+                        "period": "SHIBOR_3M",
+                        "price": null,
+                        "date": 1485475200000
+                    },
+                    {
+                        "period": "SHIBOR_3M",
+                        "price": null,
+                        "date": 1485561600000
+                    },
+                    {
+                        "period": "SHIBOR_3M",
+                        "price": null,
+                        "date": 1485648000000
+                    },
+                    {
+                        "period": "SHIBOR_3M",
+                        "price": null,
+                        "date": 1485734400000
+                    },
+                    {
+                        "period": "SHIBOR_3M",
+                        "price": null,
+                        "date": 1485820800000
+                    },
+                    {
+                        "period": "SHIBOR_3M",
+                        "price": null,
+                        "date": 1485907200000
+                    },
+                    {
+                        "period": "SHIBOR_3M",
+                        "price": null,
+                        "date": 1485993600000
+                    },
+                    {
+                        "period": "SHIBOR_3M",
+                        "price": 3.9175,
+                        "date": 1486080000000
+                    },
+                    {
+                        "period": "SHIBOR_3M",
+                        "price": 3.9348,
+                        "date": 1486166400000
+                    },
+                    {
+                        "period": "SHIBOR_3M",
+                        "price": null,
+                        "date": 1486252800000
+                    },
+                    {
+                        "period": "SHIBOR_3M",
+                        "price": 3.9497,
+                        "date": 1486339200000
+                    },
+                    {
+                        "period": "SHIBOR_3M",
+                        "price": 4.016,
+                        "date": 1486425600000
+                    },
+                    {
+                        "period": "SHIBOR_6M",
+                        "price": null,
+                        "date": 1483833600000
+                    },
+                    {
+                        "period": "SHIBOR_6M",
+                        "price": 3.5093,
+                        "date": 1483920000000
+                    },
+                    {
+                        "period": "SHIBOR_6M",
+                        "price": 3.5481,
+                        "date": 1484006400000
+                    },
+                    {
+                        "period": "SHIBOR_6M",
+                        "price": 3.5809,
+                        "date": 1484092800000
+                    },
+                    {
+                        "period": "SHIBOR_6M",
+                        "price": 3.6201,
+                        "date": 1484179200000
+                    },
+                    {
+                        "period": "SHIBOR_6M",
+                        "price": 3.6461,
+                        "date": 1484265600000
+                    },
+                    {
+                        "period": "SHIBOR_6M",
+                        "price": null,
+                        "date": 1484352000000
+                    },
+                    {
+                        "period": "SHIBOR_6M",
+                        "price": null,
+                        "date": 1484438400000
+                    },
+                    {
+                        "period": "SHIBOR_6M",
+                        "price": 3.6617,
+                        "date": 1484524800000
+                    },
+                    {
+                        "period": "SHIBOR_6M",
+                        "price": 3.6812,
+                        "date": 1484611200000
+                    },
+                    {
+                        "period": "SHIBOR_6M",
+                        "price": 3.6982,
+                        "date": 1484697600000
+                    },
+                    {
+                        "period": "SHIBOR_6M",
+                        "price": 3.7369,
+                        "date": 1484784000000
+                    },
+                    {
+                        "period": "SHIBOR_6M",
+                        "price": 3.7427,
+                        "date": 1484870400000
+                    },
+                    {
+                        "period": "SHIBOR_6M",
+                        "price": null,
+                        "date": 14849562000800000
+                    },
+                    {
+                        "period": "SHIBOR_6M",
+                        "price": 3.7628,
+                        "date": 1485043200000
+                    },
+                    {
+                        "period": "SHIBOR_6M",
+                        "price": 3.774,
+                        "date": 1485129600000
+                    },
+                    {
+                        "period": "SHIBOR_6M",
+                        "price": 3.7802,
+                        "date": 1485216000000
+                    },
+                    {
+                        "period": "SHIBOR_6M",
+                        "price": 3.8146,
+                        "date": 1485302400000
+                    },
+                    {
+                        "period": "SHIBOR_6M",
+                        "price": 3.8377,
+                        "date": 1485388800000
+                    },
+                    {
+                        "period": "SHIBOR_6M",
+                        "price": null,
+                        "date": 1485475200000
+                    },
+                    {
+                        "period": "SHIBOR_6M",
+                        "price": null,
+                        "date": 1485561600000
+                    },
+                    {
+                        "period": "SHIBOR_6M",
+                        "price": null,
+                        "date": 1485648000000
+                    },
+                    {
+                        "period": "SHIBOR_6M",
+                        "price": null,
+                        "date": 1485734400000
+                    },
+                    {
+                        "period": "SHIBOR_6M",
+                        "price": null,
+                        "date": 1485820800000
+                    },
+                    {
+                        "period": "SHIBOR_6M",
+                        "price": null,
+                        "date": 1485907200000
+                    },
+                    {
+                        "period": "SHIBOR_6M",
+                        "price": null,
+                        "date": 1485993600000
+                    },
+                    {
+                        "period": "SHIBOR_6M",
+                        "price": 3.878,
+                        "date": 1486080000000
+                    },
+                    {
+                        "period": "SHIBOR_6M",
+                        "price": 3.9039,
+                        "date": 1486166400000
+                    },
+                    {
+                        "period": "SHIBOR_6M",
+                        "price": null,
+                        "date": 1486252800000
+                    },
+                    {
+                        "period": "SHIBOR_6M",
+                        "price": 3.9195,
+                        "date": 1486339200000
+                    },
+                    {
+                        "period": "SHIBOR_6M",
+                        "price": 3.9429,
+                        "date": 1486425600000
+                    },
+                    {
+                        "period": "SHIBOR_9M",
+                        "price": null,
+                        "date": 1483833600000
+                    },
+                    {
+                        "period": "SHIBOR_9M",
+                        "price": 3.4962,
+                        "date": 1483920000000
+                    },
+                    {
+                        "period": "SHIBOR_9M",
+                        "price": 3.5247,
+                        "date": 1484006400000
+                    },
+                    {
+                        "period": "SHIBOR_9M",
+                        "price": 3.5495,
+                        "date": 1484092800000
+                    },
+                    {
+                        "period": "SHIBOR_9M",
+                        "price": 3.572,
+                        "date": 1484179200000
+                    },
+                    {
+                        "period": "SHIBOR_9M",
+                        "price": 3.5872,
+                        "date": 1484265600000
+                    },
+                    {
+                        "period": "SHIBOR_9M",
+                        "price": null,
+                        "date": 1484352000000
+                    },
+                    {
+                        "period": "SHIBOR_9M",
+                        "price": null,
+                        "date": 1484438400000
+                    },
+                    {
+                        "period": "SHIBOR_9M",
+                        "price": 3.5968,
+                        "date": 1484524800000
+                    },
+                    {
+                        "period": "SHIBOR_9M",
+                        "price": 3.6117,
+                        "date": 1484611200000
+                    },
+                    {
+                        "period": "SHIBOR_9M",
+                        "price": 3.6272,
+                        "date": 1484697600000
+                    },
+                    {
+                        "period": "SHIBOR_9M",
+                        "price": 3.6398,
+                        "date": 1484784000000
+                    },
+                    {
+                        "period": "SHIBOR_9M",
+                        "price": 3.647,
+                        "date": 1484870400000
+                    },
+                    {
+                        "period": "SHIBOR_9M",
+                        "price": null,
+                        "date": 1484956800000
+                    },
+                    {
+                        "period": "SHIBOR_9M",
+                        "price": 3.6557,
+                        "date": 1485043200000
+                    },
+                    {
+                        "period": "SHIBOR_9M",
+                        "price": 3.6666,
+                        "date": 1485129600000
+                    },
+                    {
+                        "period": "SHIBOR_9M",
+                        "price": 3.6787,
+                        "date": 1485216000000
+                    },
+                    {
+                        "period": "SHIBOR_9M",
+                        "price": 3.7005,
+                        "date": 1485302400000
+                    },
+                    {
+                        "period": "SHIBOR_9M",
+                        "price": 3.7233,
+                        "date": 1485388800000
+                    },
+                    {
+                        "period": "SHIBOR_9M",
+                        "price": null,
+                        "date": 1485475200000
+                    },
+                    {
+                        "period": "SHIBOR_9M",
+                        "price": null,
+                        "date": 1485561600000
+                    },
+                    {
+                        "period": "SHIBOR_9M",
+                        "price": null,
+                        "date": 1485648000000
+                    },
+                    {
+                        "period": "SHIBOR_9M",
+                        "price": null,
+                        "date": 1485734400000
+                    },
+                    {
+                        "period": "SHIBOR_9M",
+                        "price": null,
+                        "date": 1485820800000
+                    },
+                    {
+                        "period": "SHIBOR_9M",
+                        "price": null,
+                        "date": 1485907200000
+                    },
+                    {
+                        "period": "SHIBOR_9M",
+                        "price": null,
+                        "date": 1485993600000
+                    },
+                    {
+                        "period": "SHIBOR_9M",
+                        "price": 3.7705,
+                        "date": 1486080000000
+                    },
+                    {
+                        "period": "SHIBOR_9M",
+                        "price": 3.8092,
+                        "date": 1486166400000
+                    },
+                    {
+                        "period": "SHIBOR_9M",
+                        "price": null,
+                        "date": 1486252800000
+                    },
+                    {
+                        "period": "SHIBOR_9M",
+                        "price": 3.847,
+                        "date": 1486339200000
+                    },
+                    {
+                        "period": "SHIBOR_9M",
+                        "price": 3.8751,
+                        "date": 1486425600000
+                    },
+                    {
+                        "period": "SHIBOR_1Y",
+                        "price": null,
+                        "date": 1483833600000
+                    },
+                    {
+                        "period": "SHIBOR_1Y",
+                        "price": 3.5329,
+                        "date": 1483920000000
+                    },
+                    {
+                        "period": "SHIBOR_1Y",
+                        "price": 3.5533,
+                        "date": 1484006400000
+                    },
+                    {
+                        "period": "SHIBOR_1Y",
+                        "price": 3.5674,
+                        "date": 1484092800000
+                    },
+                    {
+                        "period": "SHIBOR_1Y",
+                        "price": 3.5838,
+                        "date": 1484179200000
+                    },
+                    {
+                        "period": "SHIBOR_1Y",
+                        "price": 3.6014,
+                        "date": 1484265600000
+                    },
+                    {
+                        "period": "SHIBOR_1Y",
+                        "price": null,
+                        "date": 1484352000000
+                    },
+                    {
+                        "period": "SHIBOR_1Y",
+                        "price": null,
+                        "date": 1484438400000
+                    },
+                    {
+                        "period": "SHIBOR_1Y",
+                        "price": 3.6102,
+                        "date": 1484524800000
+                    },
+                    {
+                        "period": "SHIBOR_1Y",
+                        "price": 3.6321,
+                        "date": 1484611200000
+                    },
+                    {
+                        "period": "SHIBOR_1Y",
+                        "price": 3.6513,
+                        "date": 1484697600000
+                    },
+                    {
+                        "period": "SHIBOR_1Y",
+                        "price": 3.6602,
+                        "date": 1484784000000
+                    },
+                    {
+                        "period": "SHIBOR_1Y",
+                        "price": 3.6691,
+                        "date": 1484870400000
+                    },
+                    {
+                        "period": "SHIBOR_1Y",
+                        "price": null,
+                        "date": 1484956800000
+                    },
+                    {
+                        "period": "SHIBOR_1Y",
+                        "price": 3.677,
+                        "date": 1485043200000
+                    },
+                    {
+                        "period": "SHIBOR_1Y",
+                        "price": 3.6847,
+                        "date": 1485129600000
+                    },
+                    {
+                        "period": "SHIBOR_1Y",
+                        "price": 3.6905,
+                        "date": 1485216000000
+                    },
+                    {
+                        "period": "SHIBOR_1Y",
+                        "price": 3.7136,
+                        "date": 1485302400000
+                    },
+                    {
+                        "period": "SHIBOR_1Y",
+                        "price": 3.7396,
+                        "date": 1485388800000
+                    },
+                    {
+                        "period": "SHIBOR_1Y",
+                        "price": null,
+                        "date": 1485475200000
+                    },
+                    {
+                        "period": "SHIBOR_1Y",
+                        "price": null,
+                        "date": 1485561600000
+                    },
+                    {
+                        "period": "SHIBOR_1Y",
+                        "price": null,
+                        "date": 1485648000000
+                    },
+                    {
+                        "period": "SHIBOR_1Y",
+                        "price": null,
+                        "date": 1485734400000
+                    },
+                    {
+                        "period": "SHIBOR_1Y",
+                        "price": null,
+                        "date": 1485820800000
+                    },
+                    {
+                        "period": "SHIBOR_1Y",
+                        "price": null,
+                        "date": 1485907200000
+                    },
+                    {
+                        "period": "SHIBOR_1Y",
+                        "price": null,
+                        "date": 1485993600000
+                    },
+                    {
+                        "period": "SHIBOR_1Y",
+                        "price": 3.786,
+                        "date": 1486080000000
+                    },
+                    {
+                        "period": "SHIBOR_1Y",
+                        "price": 3.8214,
+                        "date": 1486166400000
+                    },
+                    {
+                        "period": "SHIBOR_1Y",
+                        "price": null,
+                        "date": 1486252800000
+                    },
+                    {
+                        "period": "SHIBOR_1Y",
+                        "price": 3.8542,
+                        "date": 1486339200000
+                    },
+                    {
+                        "period": "SHIBOR_1Y",
+                        "price": 3.882,
+                        "date": 1486425600000
+                    }
+                ]
+            },
+
+            "netVolumeHistory": [
+                {
+                    "date": 1484906400325,
+                    "netVolume": null,
+                    "openMarketVolume": null,
+                    "centralTicketExpires": null,
+                    "repoMaturity": null,
+                    "reverseRepurchaseOperation": null,
+                    "withdrawalFromCirculation": null,
+                    "centralIssueOfVotes": null,
+                    "positiveBuyBackOperation": null,
+                    "reverseRepoMaturity": null
+                },
+                {
+                    "date": 1484992800325,
+                    "netVolume": null,
+                    "openMarketVolume": null,
+                    "centralTicketExpires": null,
+                    "repoMaturity": null,
+                    "reverseRepurchaseOperation": null,
+                    "withdrawalFromCirculation": null,
+                    "centralIssueOfVotes": null,
+                    "positiveBuyBackOperation": null,
+                    "reverseRepoMaturity": null
+                },
+                {
+                    "date": 1485079200325,
+                    "netVolume": null,
+                    "openMarketVolume": null,
+                    "centralTicketExpires": null,
+                    "repoMaturity": null,
+                    "reverseRepurchaseOperation": null,
+                    "withdrawalFromCirculation": null,
+                    "centralIssueOfVotes": null,
+                    "positiveBuyBackOperation": null,
+                    "reverseRepoMaturity": null
+                },
+                {
+                    "date": 1485165600325,
+                    "netVolume": null,
+                    "openMarketVolume": null,
+                    "centralTicketExpires": null,
+                    "repoMaturity": null,
+                    "reverseRepurchaseOperation": null,
+                    "withdrawalFromCirculation": null,
+                    "centralIssueOfVotes": null,
+                    "positiveBuyBackOperation": null,
+                    "reverseRepoMaturity": null
+                },
+                {
+                    "date": 1485252000325,
+                    "netVolume": null,
+                    "openMarketVolume": null,
+                    "centralTicketExpires": null,
+                    "repoMaturity": null,
+                    "reverseRepurchaseOperation": null,
+                    "withdrawalFromCirculation": null,
+                    "centralIssueOfVotes": null,
+                    "positiveBuyBackOperation": null,
+                    "reverseRepoMaturity": null
+                },
+                {
+                    "date": 1485943200325,
+                    "netVolume": null,
+                    "openMarketVolume": null,
+                    "centralTicketExpires": null,
+                    "repoMaturity": null,
+                    "reverseRepurchaseOperation": null,
+                    "withdrawalFromCirculation": null,
+                    "centralIssueOfVotes": null,
+                    "positiveBuyBackOperation": null,
+                    "reverseRepoMaturity": null
+                },
+                {
+                    "date": 1485338400325,
+                    "netVolume": null,
+                    "openMarketVolume": null,
+                    "centralTicketExpires": null,
+                    "repoMaturity": null,
+                    "reverseRepurchaseOperation": null,
+                    "withdrawalFromCirculation": null,
+                    "centralIssueOfVotes": null,
+                    "positiveBuyBackOperation": null,
+                    "reverseRepoMaturity": null
+                },
+                {
+                    "date": 1486029600327,
+                    "netVolume": null,
+                    "openMarketVolume": null,
+                    "centralTicketExpires": null,
+                    "repoMaturity": null,
+                    "reverseRepurchaseOperation": null,
+                    "withdrawalFromCirculation": null,
+                    "centralIssueOfVotes": null,
+                    "positiveBuyBackOperation": null,
+                    "reverseRepoMaturity": null
+                },
+                {
+                    "date": 1485424800325,
+                    "netVolume": null,
+                    "openMarketVolume": null,
+                    "centralTicketExpires": null,
+                    "repoMaturity": null,
+                    "reverseRepurchaseOperation": null,
+                    "withdrawalFromCirculation": null,
+                    "centralIssueOfVotes": null,
+                    "positiveBuyBackOperation": null,
+                    "reverseRepoMaturity": null
+                },
+                {
+                    "date": 1486116000327,
+                    "netVolume": null,
+                    "openMarketVolume": null,
+                    "centralTicketExpires": null,
+                    "repoMaturity": null,
+                    "reverseRepurchaseOperation": null,
+                    "withdrawalFromCirculation": null,
+                    "centralIssueOfVotes": null,
+                    "positiveBuyBackOperation": null,
+                    "reverseRepoMaturity": null
+                },
+                {
+                    "date": 1485511200325,
+                    "netVolume": null,
+                    "openMarketVolume": null,
+                    "centralTicketExpires": null,
+                    "repoMaturity": null,
+                    "reverseRepurchaseOperation": null,
+                    "withdrawalFromCirculation": null,
+                    "centralIssueOfVotes": null,
+                    "positiveBuyBackOperation": null,
+                    "reverseRepoMaturity": null
+                },
+                {
+                    "date": 1486202400327,
+                    "netVolume": null,
+                    "openMarketVolume": null,
+                    "centralTicketExpires": null,
+                    "repoMaturity": null,
+                    "reverseRepurchaseOperation": null,
+                    "withdrawalFromCirculation": null,
+                    "centralIssueOfVotes": null,
+                    "positiveBuyBackOperation": null,
+                    "reverseRepoMaturity": null
+                },
+                {
+                    "date": 1485597600325,
+                    "netVolume": null,
+                    "openMarketVolume": null,
+                    "centralTicketExpires": null,
+                    "repoMaturity": null,
+                    "reverseRepurchaseOperation": null,
+                    "withdrawalFromCirculation": null,
+                    "centralIssueOfVotes": null,
+                    "positiveBuyBackOperation": null,
+                    "reverseRepoMaturity": null
+                },
+                {
+                    "date": 1486288800327,
+                    "netVolume": null,
+                    "openMarketVolume": null,
+                    "centralTicketExpires": null,
+                    "repoMaturity": null,
+                    "reverseRepurchas1287eOperation": null,
+                    "withdrawalFromCirculation": null,
+                    "centralIssueOfVotes": null,
+                    "positiveBuyBackOperation": null,
+                    "reverseRepoMaturity": null
+                },
+                {
+                    "date": 1485684000325,
+                    "netVolume": null,
+                    "openMarketVolume": null,
+                    "centralTicketExpires": null,
+                    "repoMaturity": null,
+                    "reverseRepurchaseOperation": null,
+                    "withdrawalFromCirculation": null,
+                    "centralIssueOfVotes": null,
+                    "positiveBuyBackOperation": null,
+                    "reverseRepoMaturity": null
+                },
+                {
+                    "date": 1486375200327,
+                    "netVolume": null,
+                    "openMarketVolume": null,
+                    "centralTicketExpires": null,
+                    "repoMaturity": null,
+                    "reverseRepurchaseOperation": null,
+                    "withdrawalFromCirculation": null,
+                    "centralIssueOfVotes": null,
+                    "positiveBuyBackOperation": null,
+                    "reverseRepoMaturity": null
+                },
+                {
+                    "date": 1486461600327,
+                    "netVolume": null,
+                    "openMarketVolume": null,
+                    "centralTicketExpires": null,
+                    "repoMaturity": null,
+                    "reverseRepurchaseOperation": null,
+                    "withdrawalFromCirculation": null,
+                    "centralIssueOfVotes": null,
+                    "positiveBuyBackOperation": null,
+                    "reverseRepoMaturity": null
+                },
+                {
+                    "date": 1483956000325,
+                    "netVolume": null,
+                    "openMarketVolume": null,
+                    "centralTicketExpires": null,
+                    "repoMaturity": null,
+                    "reverseRepurchaseOperation": null,
+                    "withdrawalFromCirculation": null,
+                    "centralIssueOfVotes": null,
+                    "positiveBuyBackOperation": null,
+                    "reverseRepoMaturity": null
+                },
+                {
+                    "date": 1486548000327,
+                    "netVolume": null,
+                    "openMarketVolume": null,
+                    "centralTicketExpires": null,
+                    "repoMaturity": null,
+                    "reverseRepurchaseOperation": null,
+                    "withdrawalFromCirculation": null,
+                    "centralIssueOfVotes": null,
+                    "positiveBuyBackOperation": null,
+                    "reverseRepoMaturity": null
+                },
+                {
+                    "date": 1485770400325,
+                    "netVolume": null,
+                    "openMarketVolume": null,
+                    "centralTicketExpires": null,
+                    "repoMaturity": null,
+                    "reverseRepurchaseOperation": null,
+                    "withdrawalFromCirculation": null,
+                    "centralIssueOfVotes": null,
+                    "positiveBuyBackOperation": null,
+                    "reverseRepoMaturity": null
+                },
+                {
+                    "date": 1485856800325,
+                    "netVolume": null,
+                    "openMarketVolume": null,
+                    "centralTicketExpires": null,
+                    "repoMaturity": null,
+                    "reverseRepurchaseOperation": null,
+                    "withdrawalFromCirculation": null,
+                    "centralIssueOfVotes": null,
+                    "positiveBuyBackOperation": null,
+                    "reverseRepoMaturity": null
+                },
+                {
+                    "date": 1484042400325,
+                    "netVolume": null,
+                    "openMarketVolume": null,
+                    "centralTicketExpires": null,
+                    "repoMaturity": null,
+                    "reverseRepurchaseOperation": null,
+                    "withdrawalFromCirculation": null,
+                    "centralIssueOfVotes": null,
+                    "positiveBuyBackOperation": null,
+                    "reverseRepoMaturity": null
+                },
+                {
+                    "date": 1484128800325,
+                    "netVolume": null,
+                    "openMarketVolume": null,
+                    "centralTicketExpires": null,
+                    "repoMaturity": null,
+                    "reverseRepurchaseOperation": null,
+                    "withdrawalFromCirculation": null,
+                    "centralIssueOfVotes": null,
+                    "positiveBuyBackOperation": null,
+                    "reverseRepoMaturity": null
+                },
+                {
+                    "date": 1484215200325,
+                    "netVolume": null,
+                    "openMarketVolume": null,
+                    "centralTicketExpires": null,
+                    "repoMaturity": null,
+                    "reverseRepurchaseOperation": null,
+                    "withdrawalFromCirculation": null,
+                    "centralIssueOfVotes": null,
+                    "positiveBuyBackOperation": null,
+                    "reverseRepoMaturity": null
+                },
+                {
+                    "date": 1484301600325,
+                    "netVolume": null,
+                    "openMarketVolume": null,
+                    "centralTicketExpires": null,
+                    "repoMaturity": null,
+                    "reverseRepurchaseOperation": null,
+                    "withdrawalFromCirculation": null,
+                    "centralIssueOfVotes": null,
+                    "positiveBuyBackOperation": null,
+                    "reverseRepoMaturity": null
+                },
+                {
+                    "date": 1484388000325,
+                    "netVolume": null,
+                    "openMarketVolume": null,
+                    "centralTicketExpires": null,
+                    "repoMaturity": null,
+                    "reverseRepurchaseOperation": null,
+                    "withdrawalFromCirculation": null,
+                    "centralIssueOfVotes": null,
+                    "positiveBuyBackOperation": null,
+                    "reverseRepoMaturity": null
+                },
+                {
+                    "date": 1484474400325,
+                    "netVolume": null,
+                    "openMarketVolume": null,
+                    "centralTicketExpires": null,
+                    "repoMaturity": null,
+                    "reverseRepurchaseOperation": null,
+                    "withdrawalFromCirculation": null,
+                    "centralIssueOfVotes": null,
+                    "positiveBuyBackOperation": null,
+                    "reverseRepoMaturity": null
+                },
+                {
+                    "date": 1484560800325,
+                    "netVolume": null,
+                    "openMarketVolume": null,
+                    "centralTicketExpires": null,
+                    "repoMaturity": null,
+                    "reverseRepurchaseOperation": null,
+                    "withdrawalFromCirculation": null,
+                    "centralIssueOfVotes": null,
+                    "positiveBuyBackOperation": null,
+                    "reverseRepoMaturity": null
+                },
+                {
+                    "date": 1484647200325,
+                    "netVolume": null,
+                    "openMarketVolume": null,
+                    "centralTicketExpires": null,
+                    "repoMaturity": null,
+                    "reverseRepurchaseOperation": null,
+                    "withdrawalFromCirculation": null,
+                    "centralIssueOfVotes": null,
+                    "positiveBuyBackOperation": null,
+                    "reverseRepoMaturity": null
+                },
+                {
+                    "date": 1484733600325,
+                    "netVolume": null,
+                    "openMarketVolume": null,
+                    "centralTicketExpires": null,
+                    "repoMaturity": null,
+                    "reverseRepurchaseOperation": null,
+                    "withdrawalFromCirculation": null,
+                    "centralIssueOfVotes": null,
+                    "positiveBuyBackOperation": null,
+                    "reverseRepoMaturity": null
+                },
+                {
+                    "date": 1484820000325,
+                    "netVolume": null,
+                    "openMarketVolume": null,
+                    "centralTicketExpires": null,
+                    "repoMaturity": null,
+                    "reverseRepurchaseOperation": null,
+                    "withdrawalFromCirculation": null,
+                    "centralIssueOfVotes": null,
+                    "positiveBuyBackOperation": null,
+                    "reverseRepoMaturity": null
+                }
+            ],
+            
+            "latestCalculationTime": 1486521091156
+        }
+    ],
+    "return_message": "Success",
+    "return_code": 0,
+    "result_count": 1
+}

@@ -1,0 +1,86 @@
+@import './baseLess/color';
+
+@media screen and (max-width: 1200px) {
+	.md-panel.import-panel {
+		max-width: 80%;
+	}
+}
+
+@media screen and (min-width: 1201px) {
+	.md-panel.import-panel {
+		max-width: 60%;
+	}
+}
+
+.grid_excel_import_dialog {
+	md-dialog-content {
+		padding: 20px;
+		overflow: hidden;
+	}
+	grid-excel-import {
+		color: #ffebc8;
+		.file-name {
+			color: #ffebc8;
+			min-width: 400px;
+		}
+		.file-name.warning {
+			color: #fe900d;
+		}
+		#file {
+			display: none;
+		}
+		.file-btn {
+			padding: 3px 15px;
+			background-color: @ssBtnGrayActiveBgColor;
+			cursor: pointer;
+			border-radius: 2px;
+			color: #ffebc8;
+			white-space: nowrap;
+			margin: 0px 10px;
+		}
+		.file-btn:hover {
+			background-color: @ssBtnGrayActiveHoverBgColor;
+		}
+		a {
+			line-height: 26px;
+		}
+		.ui-grid {
+			padding: 0px;
+			margin-top: 30px;
+			input {
+				background: @ssInputBgColor;
+				border: 1px solid transparent;
+				-ms-border-radius: 2px;
+				border-radius: 2px;
+				padding: 0 3px;
+				height: 26px;
+				color: @ssTextPmrColor;
+				width: 80%;
+			}
+			input.defaultDatePickerInput {
+				width: 80%;
+				color: #ffebc8;
+				background-color: transparent;
+				border: 1px solid transparent;
+				outline: 1px solid transparent;
+			}
+			input:hover {
+				background: @ssInputHoverBgColor;
+				border-color: @ssInputHoverBorderColor;
+			}
+
+			input:focus {
+				background: @ssInputFocusBgColor;
+				border: 1px solid @ssInputFocusBorderColor;
+				outline: 1px solid transparent;
+			}
+			select {
+				background-color: @ssInputBgColor;
+				color: @ssTextPmrColor;
+			}
+			option {
+				color: @ssTextPmrColor;
+			}
+		}
+	}
+}

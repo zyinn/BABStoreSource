@@ -1,0 +1,16 @@
+.idea
+/*.iml
+*.log
+target
+/src/main/resources/application_local.properties
+/store_shared/*.iml
+/store_server/*.iml
+/store_server/src/main/webapp/.vs/config
+/store_server/src/main/webapp/.vscode
+/store_server/src/main/webapp/META-INF
+/store_server/src/main/webapp/obj/Debug
+/store_server/src/main/webapp/node_modules
+/.vs/slnx.sqlite
+/.vs/slnx.sqlite-journal
+/.vs/store_sourcecode/v15/Browse.VC.db
+store_client/bab_store_client.iml

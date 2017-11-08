@@ -1,0 +1,25 @@
+<md-dialog aria-label="{{$ctrl.title || 'Dialog'}}" aria-label="dialog" md-theme="{{$ctrl.theme}}" role="dialog"
+           md-colors="::{backgroundColor: '{{$ctrl.theme}}-background-700'}" class="grid_excel_import_dialog">
+	<form ng-cloak>
+		<md-toolbar>
+			<div class="md-toolbar-tools">
+				<h2 ng-bind="$ctrl.title"></h2>
+				<span flex></span>
+				<md-button md-no-ink class="md-icon-button" ng-click="$ctrl.$onClickCancel($event)">
+					<md-icon class="ss-icon ss-icon-close" aria-label="Close dialog"></md-icon>
+				</md-button>
+			</div>
+		</md-toolbar>
+		<md-dialog-content ng-style="$ctrl.contentStyle">
+			<grid-column-panel>
+				<md-checkbox aria-label="checkbox" class="md-raised md-primary" ng-model="col.visible" ng-repeat="col in $ctrl.columnDefs">{{ col.displayName || col.name }}</md-checkbox>
+			</grid-column-panel>
+		</md-dialog-content>
+		<md-dialog-actions layout="column" layout-align="start stretch">
+			<div layout="row" layout-align="center center">
+				<md-button md-no-ink class="md-raised md-primary" ng-click="$ctrl.$onClickOk($event)">确定</md-button>
+				<md-button md-no-ink class="md-raised md-primary" ng-click="$ctrl.$onClickCancel($event)">取消</md-button>
+			</div>
+		</md-dialog-actions>
+	</form>
+</md-dialog>

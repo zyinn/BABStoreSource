@@ -1,0 +1,34 @@
+<div ng-repeat="item in $ctrl.itemSource" ng-class="item.containerClass" md-theme="{{$ctrl.theme}}" ng-switch="item.component">
+    <div class="search-criteria-item" ng-switch-when="inputButtonSelector">
+        <input-button-selector md-theme="{{$ctrl.theme}}" ng-model="item.attribute.ngModel" vm-changed="$ctrl.onVmChanged()" label="{{item.attribute.label}}"
+            vm-type="{{item.attribute.vmType}}" has-select-all-button="{{item.attribute.hasSelectAllButton}}" item-source="item.attribute.itemSource"
+            display-path="{{item.attribute.displayPath}}" label-flex="item.attribute.labelFlex" input-flex="item.attribute.inputFlex">
+            </input-button-selector>
+    </div>
+
+    <div class="search-criteria-item" ng-switch-when="inputDropdownChips">
+        <input-dropdown-chips md-theme="{{$ctrl.theme}}" ng-model="item.attribute.ngModel" vm-changed="$ctrl.onVmChanged()" label="{{item.attribute.label}}"
+            item-source="item.attribute.itemSource" display-path="{{item.attribute.displayPath}}" label-flex="item.attribute.labelFlex"
+            input-flex="item.attribute.inputFlex"> </input-dropdown-chips>
+    </div>
+
+    <div class="search-criteria-item" ng-switch-when="inputSelectorRange">
+        <input-selector-range md-theme="{{$ctrl.theme}}" ng-model="item.attribute.ngModel" vm-changed="$ctrl.onVmChanged()" label="{{item.attribute.label}}"
+            item-source="item.attribute.itemSource" drop-list="item.attribute.dropList" display-path="{{item.attribute.displayPath}}"
+            selector-flex="item.attribute.selectorFlex" range-flex="item.attribute.rangeFlex" has-select-all-button="{{item.attribute.hasSelectAllButton}}">
+            </input-selector-range>
+    </div>
+
+    <div class="search-criteria-item" ng-switch-when="searchcriteriaAcceptinghouseQuotepricetype">
+        <searchcriteria-acceptinghouse-quotepricetype md-theme="{{$ctrl.theme}}" ng-model="item.attribute.ngModel" label="item.attribute.label"
+            vm-changed="$ctrl.onVmChanged()" label-flex="$ctrl.labelFlex" input-flex="$ctrl.inputFlex" qpt-display-path="{{item.attribute.qptDisplayPath}}"
+            vm-type="item.attribute.vmType" item-source="item.attribute.itemSource"> </searchcriteria-acceptinghouse-quotepricetype>
+    </div>
+    <div class="search-criteria-item" ng-switch-when="dateSelector">
+        <time-selector md-theme="{{$ctrl.theme}}" ng-model = "item.attribute.ngModel" label="item.attribute.label" selector-flex="{{item.attribute.flex.selector}}" date-flex="{{item.attribute.flex.date}}" 
+        vm-changed="$ctrl.onVmChanged()" flex = "{{item.flex}}">
+
+        </time-selector>
+    </div>
+    <h1 ng-switch-default ng-bind-template="No input component defined for '{{item.component}}'"></h1>
+</div>

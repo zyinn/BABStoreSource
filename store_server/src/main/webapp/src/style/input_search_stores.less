@@ -1,0 +1,78 @@
+@import './baseLess/color';
+@inputText: {
+    input,
+    input:not(.md-input) {
+        height: 24px;
+        padding: 0 8px;
+        line-height: 24px;
+    }
+}; 
+ 
+@autocompleteWrap: {
+    md-autocomplete-wrap {
+        height: 24px;
+        @inputText();
+
+        button {
+            height: 24px;
+        }
+    }
+}; 
+
+@noSearchButtonSearchTextBox: {
+    margin: 6px 6px 6px 6px;
+};
+
+@hasSearchButtonSearchTextBox: {
+    margin: 6px 0px 6px 6px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+};
+
+input-search-stores {
+    div.layout-row > label {
+        line-height: 42px;
+        height: 42px;
+        color: @ssTextExtColor;
+
+        &.required:before {
+            content: '*';
+            color: @ssRequiredMarkColor;
+            margin: 3px;
+            vertical-align: middle;
+        }
+    }
+
+    md-autocomplete {
+        width: 100%;
+        padding: 0;
+        height: 24px;
+
+        @noSearchButtonSearchTextBox();
+        @autocompleteWrap();
+    }
+
+    button.md-button.md-ssAvalonUi-theme,
+    button.button-searchMore {
+        margin: 6px 6px 6px 0;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        width: 32px;
+        min-width: 32px;
+        
+    }
+    
+    input-auto-complete, md-radio-group {
+        height: 24px;
+        padding: 0;
+        margin: 6px;
+
+        md-autocomplete {
+            height: 24px;
+            @autocompleteWrap();
+        }
+
+        &.md-ssAvalonUi-theme {
+        }
+    }
+}

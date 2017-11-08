@@ -1,0 +1,7 @@
+<drop-label ng-if="$ctrl.vmType === 'quotePriceType'" md-theme="{{$ctrl.theme}}" ng-model="$ctrl.quotePriceType" vm-changed="$ctrl.onVmChanged()"
+    is-required="$ctrl.isRequired" label="承兑行" item-source="$ctrl.itemSource" label-flex="$ctrl.labelFlex" input-flex="$ctrl.inputFlex*0.5"
+    display-path="{{$ctrl.qptDisplayPath}}">
+</drop-label>
+
+<input-acceptinghouse-search-drop ng-if="$ctrl.vmType === 'acceptingHouse'" label="承兑方" label-flex="$ctrl.labelFlex" vm-changed="$ctrl.onVmChanged()"
+    ng-model="$ctrl.acceptingHouse" md-theme="{{$ctrl.theme}}" is-required="$ctrl.isRequired" input-flex="$ctrl.inputFlex"></input-acceptinghouse-search-drop>

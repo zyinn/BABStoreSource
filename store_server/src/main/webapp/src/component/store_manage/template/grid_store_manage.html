@@ -1,0 +1,5 @@
+<div class="" layout="column" id="gridViewBusy">
+	<store-filter-bar item-source="$ctrl.filterBarItem" md-theme="ssAvalonUi" ng-model="$ctrl.barParam" btn-click="$ctrl.onBtnClick($event,dataDefine)"></store-filter-bar>
+	<div ui-grid="gridOptions" class="grid ui-grid" ui-grid-auto-resize ui-grid-save-state ui-grid-move-columns
+			ui-grid-resize-columns ui-grid-infinite-scroll ui-grid-selection ng-click="$ctrl.onClickTable($event)"></div>
+</div>

@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5797dbe7-ab1a-465e-9823-9034f4f6b967}</ProjectGuid>
+    <ProjectHome />
+    <ProjectView>ShowAllFiles</ProjectView>
+    <StartupFile>server.js</StartupFile>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <ItemGroup>
+    <Content Include="src\common\component\template\panel_base_table_dialog.html" />
+    <Content Include="src\common\component\template\panel_base_dialog.html" />
+    <Content Include="src\component\store_manage\template\add_price_acceptinghouse_quotepricetype.html" />
+    <Content Include="src\component\store_manage\template\grid_store_manage.html" />
+    <Content Include="src\component\store_manage\template\input_search_stores.html" />
+    <Content Include="src\component\store_manage\template\panel_search_criteria.html" />
+    <Content Include="src\component\store_manage\template\store_filter_bar.html" />
+    <Content Include="src\component\store_manage\template\store_manage.html" />
+    <Content Include="src\component\template\app.html" />
+    <Content Include="src\component\template\home.html" />
+    <Content Include="src\component\template\login.html" />
+    <Content Include="src\component\template\temp.html" />
+    <Content Include="src\style\baseLess\color.less" />
+    <Content Include="src\style\temp.less">
+      <SubType>Code</SubType>
+    </Content>
+    <None Include="bundleconfig.json" />
+    <None Include="compilerconfig.json" />
+    <Content Include="compilerconfig.json.defaults">
+      <SubType>Content</SubType>
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </Content>
+    <Content Include="log.txt" />
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+    <Compile Include="build.common.js" />
+    <Compile Include="config\release\config.min.js">
+      <SubType>Code</SubType>
+      <DependentUpon>config\release\config.js</DependentUpon>
+    </Compile>
+    <Compile Include="karma.conf.js" />
+    <Compile Include="postcss.config.js" />
+    <Compile Include="server.js" />
+    <Compile Include="src\common\controller\panelBaseDialogCtrl.js" />
+    <Compile Include="src\component\app.js" />
+    <Compile Include="src\component\home.js" />
+    <Compile Include="src\component\login.js" />
+    <Compile Include="src\component\store_manage\add_price_acceptinghouse_quotepricetype.js" />
+    <Compile Include="src\component\store_manage\controller\storeManageDiscountCtrl.js" />
+    <Compile Include="src\component\store_manage\controller\storeManageEnterCtrl - Copy - Copy.js" />
+    <Compile Include="src\component\store_manage\controller\storeManageGodownCtrl.js" />
+    <Compile Include="src\component\store_manage\controller\storeManageOutStoreCtrl.js" />
+    <Compile Include="src\component\store_manage\grid_store_manage.js" />
+    <Compile Include="src\component\store_manage\input_search_stores.js" />
+    <Compile Include="src\component\store_manage\search_criteria_common.js" />
+    <Compile Include="src\component\store_manage\store_filter_bar.js" />
+    <Compile Include="src\component\store_manage\store_manage.js" />
+    <Compile Include="src\component\temp.js" />
+    <Compile Include="src\public\config.min.js">
+      <SubType>Code</SubType>
+      <DependentUpon>src\public\config.js</DependentUpon>
+    </Compile>
+    <Compile Include="webpack.config.js" />
+    <Compile Include="config\webpack.build.js" />
+    <Compile Include="config\webpack.common.js" />
+    <Compile Include="config\webpack.dev.js" />
+    <Compile Include="src\bab.store.component.js" />
+    <Compile Include="src\bab.store.js" />
+    <Compile Include="src\bab.store.main.module.js" />
+    <Compile Include="src\tests.webpack.js" />
+    <Compile Include="config\release\config.js" />
+    <Compile Include="modules\middleware\httpRouter.js" />
+    <Compile Include="modules\middleware\serviceRouter.js" />
+    <Compile Include="modules\middleware\service\post\getBrotherAlliance.js" />
+    <Compile Include="modules\middleware\service\post\getExcelContent.js" />
+    <Compile Include="modules\middleware\service\post\login.js" />
+    <Compile Include="src\app\regDirective.js" />
+    <Compile Include="src\app\regService.js" />
+    <Content Include="src\public\index.html" />
+    <Compile Include="src\public\config.js" />
+    <Content Include="src\public\css\ui-grid.css" />
+    <Content Include="src\public\img\logo.png" />
+    <Content Include="src\public\img\qqlogo.png" />
+    <Content Include="src\public\img\favicon.ico" />
+    <Content Include="src\public\mock\avalon-ui-icon.css" />
+    <Content Include="src\public\mock\chart_net_volume_history.json" />
+    <Content Include="src\public\mock\grid_ticket_hall.json" />
+    <Content Include="src\public\amcharts\images\dragIconRectBig.png" />
+    <Content Include="src\public\amcharts\images\dragIconRectBigBlack.png" />
+    <Content Include="src\public\amcharts\images\dragIconRectBigBlackH.png" />
+    <Content Include="src\public\amcharts\images\dragIconRectBigH.png" />
+    <Content Include="src\public\amcharts\images\dragIconRectSmall.png" />
+    <Content Include="src\public\amcharts\images\dragIconRectSmallBlack.png" />
+    <Content Include="src\public\amcharts\images\dragIconRectSmallBlackH.png" />
+    <Content Include="src\public\amcharts\images\dragIconRectSmallH.png" />
+    <Content Include="src\public\amcharts\images\dragIconRoundBig.png" />
+    <Content Include="src\public\amcharts\images\dragIconRoundBigBlack.png" />
+    <Content Include="src\public\amcharts\images\dragIconRoundBigBlackH.png" />
+    <Content Include="src\public\amcharts\images\dragIconRoundBigH.png" />
+    <Content Include="src\public\amcharts\images\dragIconRoundSmall.png" />
+    <Content Include="src\public\amcharts\images\dragIconRoundSmallBlack.png" />
+    <Content Include="src\public\amcharts\images\dragIconRoundSmallBlackH.png" />
+    <Content Include="src\public\amcharts\images\dragIconRoundSmallH.png" />
+    <Content Include="src\public\amcharts\images\eraserIcon.png" />
+    <Content Include="src\public\amcharts\images\eraserIconH.png" />
+    <Content Include="src\public\amcharts\images\export.png" />
+    <Content Include="src\public\amcharts\images\exportWhite.png" />
+    <Content Include="src\public\amcharts\images\lens.png" />
+    <Content Include="src\public\amcharts\images\lensWhite.png" />
+    <Content Include="src\public\amcharts\images\lensWhite_old.png" />
+    <Content Include="src\public\amcharts\images\lens_old.png" />
+    <Content Include="src\public\amcharts\images\pencilIcon.png" />
+    <Content Include="src\public\amcharts\images\pencilIconH.png" />
+    <Content Include="src\public\amcharts\images\xIcon.png" />
+    <Content Include="src\public\amcharts\images\xIconH.png" />
+    <Content Include="src\public\amcharts\images\dragIcon.gif" />
+    <Content Include="src\public\amcharts\images\dragIconBlack.gif" />
+    <Content Include="src\public\amcharts\images\dragIconH.gif" />
+    <Content Include="src\public\amcharts\images\dragIconHBlack.gif" />
+    <Content Include="src\public\amcharts\images\eraserIcon.gif" />
+    <Content Include="src\public\amcharts\images\eraserIconH.gif" />
+    <Content Include="src\public\amcharts\images\pencilIcon.gif" />
+    <Content Include="src\public\amcharts\images\pencilIconH.gif" />
+    <Content Include="src\public\amcharts\images\xIcon.gif" />
+    <Content Include="src\public\amcharts\images\xIconH.gif" />
+    <Content Include="src\public\amcharts\images\dragIconRectBig.svg" />
+    <Content Include="src\public\amcharts\images\dragIconRectBigBlack.svg" />
+    <Content Include="src\public\amcharts\images\dragIconRectBigBlackH.svg" />
+    <Content Include="src\public\amcharts\images\dragIconRectBigH.svg" />
+    <Content Include="src\public\amcharts\images\dragIconRectSmall.svg" />
+    <Content Include="src\public\amcharts\images\dragIconRectSmallBlack.svg" />
+    <Content Include="src\public\amcharts\images\dragIconRectSmallBlackH.svg" />
+    <Content Include="src\public\amcharts\images\dragIconRectSmallH.svg" />
+    <Content Include="src\public\amcharts\images\dragIconRoundBig.svg" />
+    <Content Include="src\public\amcharts\images\dragIconRoundBigBlack.svg" />
+    <Content Include="src\public\amcharts\images\dragIconRoundBigBlackH.svg" />
+    <Content Include="src\public\amcharts\images\dragIconRoundBigH.svg" />
+    <Content Include="src\public\amcharts\images\dragIconRoundSmall.svg" />
+    <Content Include="src\public\amcharts\images\dragIconRoundSmallBlack.svg" />
+    <Content Include="src\public\amcharts\images\dragIconRoundSmallBlackH.svg" />
+    <Content Include="src\public\amcharts\images\dragIconRoundSmallH.svg" />
+    <Content Include="src\public\amcharts\images\eraserIcon.svg" />
+    <Content Include="src\public\amcharts\images\eraserIconH.svg" />
+    <Content Include="src\public\amcharts\images\lens.svg" />
+    <Content Include="src\public\amcharts\images\lensWhite.svg" />
+    <Content Include="src\public\amcharts\images\pencilIcon.svg" />
+    <Content Include="src\public\amcharts\images\pencilIconH.svg" />
+    <Content Include="src\public\amcharts\images\xIcon.svg" />
+    <Content Include="src\public\amcharts\images\xIconH.svg" />
+    <Content Include="src\public\css\metro-ui\css\metro-icons.min.css" />
+    <Content Include="src\public\css\metro-ui\fonts\metro.svg" />
+    <Content Include="src\public\css\metro-ui\fonts\selection.json" />
+    <Content Include="src\public\img\icons\menu.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="config" />
+    <Folder Include="config\release" />
+    <Folder Include="modules" />
+    <Folder Include="modules\middleware" />
+    <Folder Include="modules\middleware\service" />
+    <Folder Include="modules\middleware\service\get" />
+    <Folder Include="modules\middleware\service\post" />
+    <Folder Include="src" />
+    <Folder Include="src\app" />
+    <Folder Include="src\common" />
+    <Folder Include="src\common\component\" />
+    <Folder Include="src\common\component\template\" />
+    <Folder Include="src\common\controller\" />
+    <Folder Include="src\component\" />
+    <Folder Include="src\component\store_manage\" />
+    <Folder Include="src\component\store_manage\controller\" />
+    <Folder Include="src\component\store_manage\template\" />
+    <Folder Include="src\component\template\" />
+    <Folder Include="src\const" />
+    <Folder Include="src\controller" />
+    <Folder Include="src\public" />
+    <Folder Include="src\public\amcharts" />
+    <Folder Include="src\public\amcharts\images" />
+    <Folder Include="src\public\css" />
+    <Folder Include="src\public\css\metro-ui" />
+    <Folder Include="src\public\css\metro-ui\css" />
+    <Folder Include="src\public\css\metro-ui\fonts" />
+    <Folder Include="src\public\img" />
+    <Folder Include="src\public\img\icons" />
+    <Folder Include="src\public\import" />
+    <Folder Include="src\public\mock" />
+    <Folder Include="src\public\page" />
+    <Folder Include="src\service" />
+    <Folder Include="src\style" />
+    <Folder Include="src\style\baseLess\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <!--Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them.-->
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

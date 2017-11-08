@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.sumscope.bab.store.mapping.BabStoreMapper">
+    <resultMap id="BaseResultMap" type="com.sumscope.bab.store.model.model.BabStoreModel">
+        <result column="id" property="id" jdbcType="VARCHAR"/>
+        <result column="bill_info_id" property="billInfoId" jdbcType="VARCHAR"/>
+        <result column="godown_date" property="godownDate" jdbcType="TIMESTAMP"/>
+        <result column="godown_type" property="godownType" typeHandler="com.sumscope.optimus.commons.databasetypehandler.EnumTypeHandler"/>
+        <result column="godown_price" property="godownPrice" jdbcType="DECIMAL"/>
+        <result column="out_date" property="outDate" jdbcType="VARCHAR"/>
+        <result column="out_type" property="outType" typeHandler="com.sumscope.optimus.commons.databasetypehandler.EnumTypeHandler"/>
+        <result column="out_price" property="outPrice" jdbcType="DECIMAL"/>
+        <result column="counterparty_name" property="counterPartyName" jdbcType="VARCHAR"/>
+        <result column="memo" property="memo" jdbcType="VARCHAR"/>
+        <result column="store_status" property="storeStatus" typeHandler="com.sumscope.optimus.commons.databasetypehandler.EnumTypeHandler"/>
+        <result column="operator_id" property="operatorId" jdbcType="VARCHAR"/>
+        <result column="create_date" property="createDate" jdbcType="TIMESTAMP"/>
+        <result column="latest_update_date" property="latestUpdateDate" jdbcType="TIMESTAMP"/>
+        <result column="deal_id" property="dealId" jdbcType="VARCHAR"/>
+        <result column="adjust_days" property="adjustDays" jdbcType="INTEGER"/>
+    </resultMap>
+    <resultMap id="BaseStoreWithInfoResultMap" type="com.sumscope.bab.store.model.model.BabStoreWithInfoModel" extends="BaseResultMap">
+        <result column="bill_info_id" property="billInfoModel.id" jdbcType="VARCHAR"/>
+        <result column="bill_number" property="billInfoModel.billNumber" jdbcType="VARCHAR"/>
+        <result column="operator_id" property="billInfoModel.operatorId" jdbcType="VARCHAR"/>
+        <result column="bill_medium" property="billInfoModel.billMedium" typeHandler="com.sumscope.optimus.commons.databasetypehandler.EnumTypeHandler"/>
+        <result column="bill_type" property="billInfoModel.billType" typeHandler="com.sumscope.optimus.commons.databasetypehandler.EnumTypeHandler"/>
+        <result column="amount" property="billInfoModel.amount" jdbcType="DECIMAL"/>
+        <result column="payee_name" property="billInfoModel.payeeName" jdbcType="VARCHAR"/>
+        <result column="drawer_name" property="billInfoModel.drawerName" jdbcType="VARCHAR"/>
+        <result column="accepting_company_name" property="billInfoModel.acceptingCompanyName" jdbcType="VARCHAR"/>
+        <result column="accepting_company_type" property="billInfoModel.acceptingCompanyType" typeHandler="com.sumscope.optimus.commons.databasetypehandler.EnumTypeHandler"/>
+        <result column="bill_start_date" property="billInfoModel.billStartDate" jdbcType="TIMESTAMP"/>
+        <result column="bill_due_date" property="billInfoModel.billDueDate" jdbcType="TIMESTAMP"/>
+        <result column="jpg_info" property="billInfoModel.jpgInfo" jdbcType="VARCHAR"/>
+        <result column="create_date" property="billInfoModel.createDate" jdbcType="TIMESTAMP"/>
+        <result column="latest_update_date" property="billInfoModel.latestUpdateDate" jdbcType="TIMESTAMP"/>
+        <result column="bill_status" property="billInfoModel.billStatus" typeHandler="com.sumscope.optimus.commons.databasetypehandler.EnumTypeHandler"/>
+        <result column="adjust_days" property="adjustDays" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <insert id="insert" parameterType="java.util.List" >
+        INSERT INTO bab_store VALUES
+        <foreach item="item" index="index" collection="list"
+                 open="(" separator="," close=" )">
+            #{item.id}, #{item.billInfoId}, #{item.godownDate}, #{item.godownType}, #{item.godownPrice}, #{item.outDate}, #{item.outType},
+            #{item.outPrice}, #{item.counterPartyName}, #{item.memo},'ITS',
+            #{item.operatorId}, #{item.createDate}, #{item.latestUpdateDate}, #{item.dealId},#{item.adjustDays}
+        </foreach>
+    </insert>
+
+    <update id="outStores" parameterType="com.sumscope.bab.store.model.model.StoreOutModel" >
+        UPDATE bab_store SET
+        out_type = #{outType},
+        out_date = #{outDate},
+        store_status = 'OTS',
+        <if test="outPrice!=null">
+            out_price = #{outPrice},
+        </if>
+        <if test="counterPartyName!=null">
+            counterparty_name = #{counterPartyName},
+        </if>
+        operator_id = #{operatorId}
+        WHERE id IN
+        <foreach item="item" index="index" collection="ids"
+                 open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </update>
+
+    <update id="update" parameterType="com.sumscope.bab.store.model.model.BabStoreModel" >
+        UPDATE bab_store SET
+        <if test="godownPrice!=null">
+            godown_price = #{godownPrice},
+        </if>
+        <if test="adjustDays!=null">
+            adjust_days = #{adjustDays},
+        </if>
+        <if test="godownType!=null">
+            godown_type = #{godownType},
+        </if>
+        <if test="godownDate!=null">
+            godown_date = #{godownDate},
+        </if>
+        store_status = #{storeStatus}
+        WHERE id = #{id}
+    </update>
+
+    <select id="getStoreById" parameterType="java.lang.String" resultMap="BaseResultMap">
+        SELECT * FROM bab_store WHERE id = #{id}
+    </select>
+
+    <select id="getStoreByKeys" parameterType="com.sumscope.bab.store.model.model.BabStoreModel" resultMap="BaseStoreWithInfoResultMap">
+        SELECT * FROM bab_store JOIN bill_info  ON bab_store.bill_info_id = bill_info.id
+        WHERE bill_info.id = #{billInfoId} and bab_store.operator_id = #{operatorId} and bab_store.store_status = 'ITS'
+    </select>
+
+    <select id="searchStoresByParam" parameterType="com.sumscope.bab.store.model.model.StoreSearchParam" resultMap="BaseStoreWithInfoResultMap">
+        SELECT * FROM bab_store store
+        JOIN bill_info info ON store.bill_info_id = info.id
+        WHERE
+        <include refid="condition"></include>
+        <include refid="defaultDesc"></include>
+        <include refid="sqlLimit"></include>
+    </select>
+
+    <sql id="defaultDesc">
+        ORDER BY store.godown_date DESC
+    </sql>
+
+    <sql id="condition">
+        <choose>
+            <when test="babStoreStatus != null">
+                store.store_status = #{babStoreStatus}
+            </when>
+            <otherwise>
+                store.store_status IN ('ITS','OTS')
+            </otherwise>
+        </choose>
+
+        <if test="billTypeModel != null">
+            AND
+            <foreach item="item" index="index" collection="billTypeModel"
+                     open="(" separator="OR" close=")">
+               info.bill_medium = #{item.billMedium} AND info.bill_type = #{item.billType}
+            </foreach>
+        </if>
+
+        <if test="acceptingCompanyType !=null">
+            AND info.accepting_company_type = #{acceptingCompanyType}
+        </if>
+        <if test="billDueDateStart != null and billDueDateEnd != null">
+            AND (<![CDATA[ info.bill_due_date >= #{billDueDateStart} AND info.bill_due_date<= #{billDueDateEnd} ]]>)
+        </if>
+        <if test="godownType !=null">
+            AND  store.godown_type IN
+            <foreach item="item" index="index" collection="godownType"
+                     open="(" separator="," close=")">
+                #{item}
+            </foreach>
+        </if>
+        <if test="outType !=null">
+            AND store.out_type IN
+            <foreach item="item" index="index" collection="outType"
+                     open="(" separator="," close=")">
+                #{item}
+            </foreach>
+        </if>
+
+        <if test="operatorId !=null">
+            AND store.operator_id = #{operatorId}
+        </if>
+    </sql>
+    <sql id="sqlLimit">
+        <if test="paging==true and pageSize != null and pageNumber != null">
+            limit #{pageNumber}, #{pageSize}
+        </if>
+    </sql>
+
+    <select id="searchDealStoresByParam" parameterType="com.sumscope.bab.store.model.dto.BillNumberWithOperatorIdDto" resultMap="BaseStoreWithInfoResultMap">
+        select * from bill_info info join bab_store store on store.bill_info_id = info.id
+        where info.operator_id =#{operatorId} and info.bill_number = #{billNumber}
+        and store.operator_id=#{operatorId} and store.store_status='ITS';
+    </select>
+
+</mapper>
+
+
+
+
+
+
+
+
+
+
+

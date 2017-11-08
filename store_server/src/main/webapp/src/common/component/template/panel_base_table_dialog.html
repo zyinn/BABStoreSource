@@ -1,0 +1,93 @@
+<md-dialog class="bab-store-dialog" aria-label="{{$ctrl.title || 'dialog'}}" md-theme="{{$ctrl.theme}}" role="dialog" md-colors="::{backgroundColor: '{{$ctrl.theme}}-background-700'}">
+    <form ng-cloak>
+        <md-toolbar>
+            <div class="md-toolbar-tools">
+                <h2 ng-bind="$ctrl.title"></h2>
+                <span flex></span>
+                <md-button class="md-icon-button" ng-click="$ctrl.$onClickCancel()">
+                    <md-icon class="ss-icon ss-icon-close" aria-label="Close dialog"></md-icon>
+                </md-button>
+            </div>
+        </md-toolbar>
+
+        <md-dialog-content dialog-type="{{$ctrl.dialogType}}" ng-switch="$ctrl.dialogType" ng-style="$ctrl.contentStyle">
+            <div class="md-dialog-content dialog-add-price" ng-switch-when="storeManage" layout="row" layout-wrap>
+                <div class="dialog-add-price-item" ng-switch="item.component" ng-repeat="item in $ctrl.itemSource" flex="{{item.containerFlex || 100}}">
+
+                    <div class="dialog-item" ng-switch-when="inputButtonSwitcher">
+                        <input-button-switcher md-theme="{{$ctrl.theme}}" ng-model="item.attribute.ngModel" vm-changed="$ctrl.onVmChanged(item.vm)" label="{{item.attribute.label}}"
+                                               item-source="item.attribute.itemSource" display-path="{{item.attribute.displayPath}}" label-flex="$ctrl.labelFlex"
+                                               input-flex="$ctrl.inputFlex"></input-button-switcher>
+                    </div>
+
+                    <div class="dialog-item" ng-switch-when="inputButtonSelector">
+                        <input-button-selector md-theme="{{$ctrl.theme}}" ng-model="item.attribute.ngModel" vm-changed="$ctrl.onVmChanged(item.vm)" label="{{item.attribute.label}}"
+                                               has-select-all-button="{{item.attribute.hasSelectAllButton}}" item-source="item.attribute.itemSource"
+                                               display-path="{{item.attribute.displayPath}}" label-flex="item.attribute.labelFlex >= 0 ? item.attribute.labelFlex : $ctrl.labelFlex"
+                                               input-flex="$ctrl.inputFlex" vm-type="{{item.attribute.vmType}}"></input-button-selector>
+                    </div>
+
+                    <div class="dialog-item" ng-switch-when="dropLabel">
+                        <drop-label md-theme="{{$ctrl.theme}}" ng-model="item.attribute.ngModel" vm-changed="$ctrl.onVmChanged(item.vm)" is-required="{{item.attribute.isRequired}}"
+                                    label="{{item.attribute.label}}" item-source="item.attribute.itemSource" display-path="{{item.attribute.displayPath}}"
+                                    label-flex="$ctrl.labelFlex" input-flex="item.attribute.inputFlex || $ctrl.inputFlex" placeholder="{{item.attribute.placeholder}}"></drop-label>
+                    </div>
+
+                    <div class="dialog-item" ng-switch-when="inputLabel">
+                        <input-label md-theme="{{$ctrl.theme}}" ng-hide="item.attribute.isHide" ng-model="item.attribute.ngModel" vm-changed="$ctrl.onVmChanged(item.vm)"
+                                     is-required="{{item.attribute.isRequired}}" is-disabled="{{item.attribute.isDisabled}}" is-readonly="{{item.attribute.isReadonly}}"
+                                     muti-line="{{item.mutiLine}}" label="{{item.attribute.label}}" label-flex="item.attribute.labelFlex || $ctrl.labelFlex"
+                                     input-flex="item.attribute.inputFlex || $ctrl.inputFlex"></input-label>
+                    </div>
+
+                    <div class="dialog-item" ng-switch-when="inputDatePicker">
+                        <input-date-picker ng-class="{'fixed-datepicker': item.attribute.isFixedPopup}" md-theme="{{$ctrl.theme}}" ng-model="item.attribute.ngModel" vm-changed="$ctrl.onVmChanged(item.vm)" is-required="{{item.attribute.isRequired}}"
+                                           label="{{item.attribute.label}}" label-flex="$ctrl.labelFlex" default-value="item.attribute.defaultValue"
+                                           input-flex="item.attribute.inputFlex || $ctrl.inputFlex" null-value-string="不限" picker-config="item.pickerConfig?item.pickerConfig:$ctrl.pickerConfig"></input-date-picker>
+                    </div>
+
+                    <div class="dialog-item" ng-switch-when="inputLabelDrop">
+                        <input-label-drop md-theme="{{$ctrl.theme}}" ng-model="item.attribute.ngModel" vm-changed="$ctrl.onVmChanged(item.vm)" is-required="{{item.attribute.isRequired}}"
+                                          label="{{item.attribute.label}}" is-input-disabled="{{item.attribute.isInputDisabled}}" item-source="item.attribute.itemSource" label-flex="$ctrl.labelFlex" display-path="{{item.attribute.displayPath}}"
+                                          input-flex="$ctrl.inputFlex" placeholder="{{item.attribute.placeholder}}"></input-label-drop>
+                    </div>
+
+                    <div class="dialog-item" ng-switch-when="inputFileSelect">
+                        <input-file-select md-theme="{{$ctrl.theme}}" is-required="{{item.attribute.isRequired}}" label="{{item.attribute.label}}"
+                                           label-flex="item.attribute.labelFlex || $ctrl.labelFlex"
+                                           input-flex="item.attribute.inputFlex || $ctrl.inputFlex" vm-changed="$ctrl.onVmChanged(item.vm)"
+                                           ng-model="item.attribute.ngModel" img-width="{{item.attribute.imgWidth}}" img-height="{{item.attribute.imgHeight}}"
+                                           is-show-thumb="{{item.attribute.isShowThumb}}"></input-file-select>
+                    </div>
+                    <div class="dialog-item" ng-switch-when="labelHtmlContent" ng-bind-html="item.html"></div>
+
+                    <div class="dialog-item" ng-switch-when="inputSearchStores">
+                        <input-search-stores md-theme="{{$ctrl.theme}}" ng-model="item.attribute.ngModel" is-required="{{item.attribute.isRequired}}" label="{{item.attribute.label}}"
+                                             vm-changed="$ctrl.onVmChanged(item.vm)" label-flex="$ctrl.labelFlex" input-flex="$ctrl.inputFlex" qpt-display-path="{{item.attribute.qptDisplayPath}}"
+                                             vm-type="item.attribute.vmType" item-source="item.attribute.itemSource" is-disabled="{{item.attribute.isDisabled}}">
+
+                        </input-search-stores>
+                    </div>
+
+                    <div class="dialog-item" ng-switch-when="hiddenString" ng-show="false">
+                        <input ng-model="item.attribute.ngModel">                        
+                    </div>
+
+                    <div class="dialog-item spilt-line-landscape" ng-switch-when="spiltRow"></div>
+                    <div class="content-tips" ng-switch-when="tipContent">{{item.content}}</div>
+
+                    <span ng-switch-default>{{item.vm}}</span>
+                </div>
+            </div>
+        </md-dialog-contentdialog-type="">
+
+        <md-dialog-actions ng-switch="$ctrl.dialogType" layout="column" layout-align="start stretch">
+            <div layout="row">
+                <span flex></span>
+                <md-button class="md-raised md-primary" ng-click="$ctrl.$onClickOk($event)">确定</md-button>
+                <md-button class="md-raised md-primary" ng-click="$ctrl.$onClickCancel($event)">取消</md-button>
+            </div>
+        </md-dialog-actions>
+    </form>
+
+</md-dialog>

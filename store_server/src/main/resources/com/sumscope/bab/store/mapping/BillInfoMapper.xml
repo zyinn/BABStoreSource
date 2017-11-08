@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.sumscope.bab.store.mapping.BillInfoMapper">
+
+    <resultMap id="BaseResultMap" type="com.sumscope.bab.store.model.model.BillInfoModel">
+        <result column="id" property="id" jdbcType="VARCHAR"/>
+        <result column="bill_number" property="billNumber" jdbcType="VARCHAR"/>
+        <result column="operator_id" property="operatorId" jdbcType="VARCHAR"/>
+        <result column="bill_medium" property="billMedium" typeHandler="com.sumscope.optimus.commons.databasetypehandler.EnumTypeHandler"/>
+        <result column="bill_type" property="billType" typeHandler="com.sumscope.optimus.commons.databasetypehandler.EnumTypeHandler"/>
+        <result column="amount" property="amount" jdbcType="DECIMAL"/>
+        <result column="payee_name" property="payeeName" jdbcType="VARCHAR"/>
+        <result column="drawer_name" property="drawerName" jdbcType="VARCHAR"/>
+        <result column="accepting_company_name" property="acceptingCompanyName" jdbcType="VARCHAR"/>
+        <result column="accepting_company_type" property="acceptingCompanyType" typeHandler="com.sumscope.optimus.commons.databasetypehandler.EnumTypeHandler"/>
+        <result column="bill_start_date" property="billStartDate" jdbcType="TIMESTAMP"/>
+        <result column="bill_due_date" property="billDueDate" jdbcType="TIMESTAMP"/>
+        <result column="jpg_info" property="jpgInfo" jdbcType="VARCHAR"/>
+        <result column="create_date" property="createDate" jdbcType="TIMESTAMP"/>
+        <result column="latest_update_date" property="latestUpdateDate" jdbcType="TIMESTAMP"/>
+        <result column="bill_status" property="billStatus" typeHandler="com.sumscope.optimus.commons.databasetypehandler.EnumTypeHandler"/>
+    </resultMap>
+
+    <insert id="insert" parameterType="com.sumscope.bab.store.model.model.BillInfoModel" >
+        INSERT INTO bill_info VALUES (
+            #{id}, #{billNumber}, #{operatorId}, #{billMedium}, #{billType}, #{amount}, #{payeeName},
+            #{drawerName}, #{acceptingCompanyName}, #{acceptingCompanyType}, #{billStartDate},
+            #{billDueDate}, #{jpgInfo}, #{createDate}, #{latestUpdateDate}, #{billStatus}
+        )
+    </insert>
+
+    <update id="update" parameterType="com.sumscope.bab.store.model.model.BillInfoModel" >
+        UPDATE bill_info SET
+        <if test="billMedium!=null">
+            bill_medium = #{billMedium},
+        </if>
+        <if test="billType!=null">
+            bill_type = #{billType},
+        </if>
+        <if test="amount!=null">
+            amount = #{amount},
+        </if>
+        <if test="payeeName!=null">
+            payee_name = #{payeeName},
+        </if>
+        <if test="drawerName!=null">
+            drawer_name = #{drawerName},
+        </if>
+        <if test="acceptingCompanyName!=null">
+            accepting_company_name = #{acceptingCompanyName},
+        </if>
+        <if test="acceptingCompanyType!=null">
+            accepting_company_type = #{acceptingCompanyType},
+        </if>
+        <if test="billStartDate!=null">
+            bill_start_date = #{billStartDate},
+        </if>
+        <if test="billDueDate!=null">
+            bill_due_date = #{billDueDate},
+        </if>
+        <if test="jpgInfo!=null">
+            jpg_info = #{jpgInfo},
+        </if>
+        <if test="createDate!=null">
+            create_date = #{createDate},
+        </if>
+        <if test="billStatus!=null">
+            bill_status = #{billStatus},
+        </if>
+        latest_update_date = #{latestUpdateDate}
+        WHERE (bill_number = #{billNumber} and operator_id = #{operatorId}) OR id = #{id}
+    </update>
+
+    <select id="getBillInfoById" parameterType="java.lang.String" resultType="com.sumscope.bab.store.model.model.BillInfoModel">
+        SELECT * FROM bill_info where id = #{id}
+    </select>
+
+    <select id="getBillInfoByKeys" parameterType="com.sumscope.bab.store.model.model.BillInfoModel" resultMap="BaseResultMap">
+        SELECT * FROM bill_info WHERE bill_number = #{billNumber} and operator_id = #{operatorId}
+    </select>
+
+    <select id="searchBillInfoByNumber" parameterType="java.lang.String" resultType="com.sumscope.bab.store.model.model.BillInfoValidationModel">
+        SELECT info.id AS id,info.bill_number AS billNumber,info.operator_id AS operatorId,store.id AS storeId
+        FROM bill_info info
+        JOIN bab_store store ON store.bill_info_id = info.id
+        WHERE info.bill_number = #{billNumber}
+    </select>
+</mapper>

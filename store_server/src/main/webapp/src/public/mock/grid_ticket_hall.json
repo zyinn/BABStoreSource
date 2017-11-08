@@ -1,0 +1,462 @@
+[
+  {
+    "ID": "11111111111111",
+    "direction": "IN",
+    "bill_type": "BKB",
+    "bill_medium": "PAP",
+    "memo": "这是备注",
+    "quoteCompanyDto": {
+      "ID": "22222222",
+      "name": "上海宝钢实业",
+      "province": "上海"
+    },
+    "contactDto": {
+      "ID": "1111111111",
+      "name": "张三",
+      "mobileTel": "18236881111",
+      "qq": "123458766"
+    },
+    "operatorId": "",
+    "createDate": 1481715375491,
+    "lastUpdateDate": 1481715375491,
+    "effectiveDate": 1481715375491,
+    "expiredDate": 1481715375491,
+    "quoteStatus": "DFT",
+    "containsAdditionalInfo": false,
+    "additionalInfo": {
+      "quoteCompanyName": "",
+      "contactName": "",
+      "contactTelephone": ""
+    },
+    "quoteProvinces": {
+      "provinceCode": "",
+      "provinceName": "上海"
+    },
+    "quotePriceType": "GG",
+    "accpetingHouse": {
+      "ID": "111111111",
+      "companyName": "",
+      "companyType": "",
+      "fromExternal": false,
+      "companyNamePinYin": "",
+      "companyNamePY": ""
+    },
+    "dueDate": 1481979220601,
+    "price": 1.0000,
+    "amount": 20000
+  },
+  {
+    "ID": "11111111111111",
+    "direction": "IN",
+    "bill_type": "BKB",
+    "bill_medium": "PAP",
+    "memo": "这是备注",
+    "quoteCompanyDto": {
+      "ID": "22222222",
+      "name": "上海宝钢实业",
+      "province": "上海"
+    },
+    "contactDto": {
+      "ID": "1111111111",
+      "name": "张三",
+      "mobileTel": "18236881111",
+      "qq": "123458766"
+    },
+    "operatorId": "",
+    "createDate": 1481715375491,
+    "lastUpdateDate": 1481715375491,
+    "effectiveDate": 1481715375491,
+    "expiredDate": 1481715375491,
+    "quoteStatus": "DFT",
+    "containsAdditionalInfo": false,
+    "additionalInfo": {
+      "quoteCompanyName": "",
+      "contactName": "",
+      "contactTelephone": ""
+    },
+    "quoteProvinces": {
+      "provinceCode": "",
+      "provinceName": "上海"
+    },
+    "quotePriceType": "GG",
+    "accpetingHouse": {
+      "ID": "111111111",
+      "companyName": "",
+      "companyType": "",
+      "fromExternal": false,
+      "companyNamePinYin": "",
+      "companyNamePY": ""
+    },
+    "dueDate": 1481979220601,
+    "price": 1.0000,
+    "amount": 20000
+  },
+  {
+    "ID": "11111111111111",
+    "direction": "IN",
+    "bill_type": "BKB",
+    "bill_medium": "PAP",
+    "memo": "这是备注",
+    "quoteCompanyDto": {
+      "ID": "22222222",
+      "name": "上海宝钢实业",
+      "province": "上海"
+    },
+    "contactDto": {
+      "ID": "1111111111",
+      "name": "张三",
+      "mobileTel": "18236881111",
+      "qq": "123458766"
+    },
+    "operatorId": "",
+    "createDate": 1481715375491,
+    "lastUpdateDate": 1481715375491,
+    "effectiveDate": 1481715375491,
+    "expiredDate": 1481715375491,
+    "quoteStatus": "DFT",
+    "containsAdditionalInfo": false,
+    "additionalInfo": {
+      "quoteCompanyName": "",
+      "contactName": "",
+      "contactTelephone": ""
+    },
+    "quoteProvinces": {
+      "provinceCode": "",
+      "provinceName": "上海"
+    },
+    "quotePriceType": "GG",
+    "accpetingHouse": {
+      "ID": "111111111",
+      "companyName": "",
+      "companyType": "",
+      "fromExternal": false,
+      "companyNamePinYin": "",
+      "companyNamePY": ""
+    },
+    "dueDate": 1481979220601,
+    "price": 1.0000,
+    "amount": 20000
+  },
+  {
+    "ID": "11111111111111",
+    "direction": "IN",
+    "bill_type": "BKB",
+    "bill_medium": "PAP",
+    "memo": "这是备注",
+    "quoteCompanyDto": {
+      "ID": "22222222",
+      "name": "上海宝钢实业",
+      "province": "上海"
+    },
+    "contactDto": {
+      "ID": "1111111111",
+      "name": "张三",
+      "mobileTel": "18236881111",
+      "qq": "123458766"
+    },
+    "operatorId": "",
+    "createDate": 1481715375491,
+    "lastUpdateDate": 1481715375491,
+    "effectiveDate": 1481715375491,
+    "expiredDate": 1481715375491,
+    "quoteStatus": "DFT",
+    "containsAdditionalInfo": false,
+    "additionalInfo": {
+      "quoteCompanyName": "",
+      "contactName": "",
+      "contactTelephone": ""
+    },
+    "quoteProvinces": {
+      "provinceCode": "",
+      "provinceName": "上海"
+    },
+    "quotePriceType": "GG",
+    "accpetingHouse": {
+      "ID": "111111111",
+      "companyName": "",
+      "companyType": "",
+      "fromExternal": false,
+      "companyNamePinYin": "",
+      "companyNamePY": ""
+    },
+    "dueDate": 1481979220601,
+    "price": 1.0000,
+    "amount": 20000
+  },
+  {
+    "ID": "11111111111111",
+    "direction": "IN",
+    "bill_type": "BKB",
+    "bill_medium": "PAP",
+    "memo": "这是备注",
+    "quoteCompanyDto": {
+      "ID": "22222222",
+      "name": "上海宝钢实业",
+      "province": "上海"
+    },
+    "contactDto": {
+      "ID": "1111111111",
+      "name": "张三",
+      "mobileTel": "18236881111",
+      "qq": "123458766"
+    },
+    "operatorId": "",
+    "createDate": 1481715375491,
+    "lastUpdateDate": 1481715375491,
+    "effectiveDate": 1481715375491,
+    "expiredDate": 1481715375491,
+    "quoteStatus": "DFT",
+    "containsAdditionalInfo": false,
+    "additionalInfo": {
+      "quoteCompanyName": "",
+      "contactName": "",
+      "contactTelephone": ""
+    },
+    "quoteProvinces": {
+      "provinceCode": "",
+      "provinceName": "上海"
+    },
+    "quotePriceType": "GG",
+    "accpetingHouse": {
+      "ID": "111111111",
+      "companyName": "",
+      "companyType": "",
+      "fromExternal": false,
+      "companyNamePinYin": "",
+      "companyNamePY": ""
+    },
+    "dueDate": 1481979220601,
+    "price": 1.0000,
+    "amount": 20000
+  },
+  {
+    "ID": "11111111111111",
+    "direction": "IN",
+    "bill_type": "BKB",
+    "bill_medium": "PAP",
+    "memo": "这是备注",
+    "quoteCompanyDto": {
+      "ID": "22222222",
+      "name": "上海宝钢实业",
+      "province": "上海"
+    },
+    "contactDto": {
+      "ID": "1111111111",
+      "name": "张三",
+      "mobileTel": "18236881111",
+      "qq": "123458766"
+    },
+    "operatorId": "",
+    "createDate": 1481715375491,
+    "lastUpdateDate": 1481715375491,
+    "effectiveDate": 1481715375491,
+    "expiredDate": 1481715375491,
+    "quoteStatus": "DFT",
+    "containsAdditionalInfo": false,
+    "additionalInfo": {
+      "quoteCompanyName": "",
+      "contactName": "",
+      "contactTelephone": ""
+    },
+    "quoteProvinces": {
+      "provinceCode": "",
+      "provinceName": "上海"
+    },
+    "quotePriceType": "GG",
+    "accpetingHouse": {
+      "ID": "111111111",
+      "companyName": "",
+      "companyType": "",
+      "fromExternal": false,
+      "companyNamePinYin": "",
+      "companyNamePY": ""
+    },
+    "dueDate": 1481979220601,
+    "price": 1.0000,
+    "amount": 20000
+  },
+  {
+    "ID": "11111111111111",
+    "direction": "IN",
+    "bill_type": "BKB",
+    "bill_medium": "PAP",
+    "memo": "这是备注",
+    "quoteCompanyDto": {
+      "ID": "22222222",
+      "name": "上海宝钢实业",
+      "province": "上海"
+    },
+    "contactDto": {
+      "ID": "1111111111",
+      "name": "张三",
+      "mobileTel": "18236881111",
+      "qq": "123458766"
+    },
+    "operatorId": "",
+    "createDate": 1481715375491,
+    "lastUpdateDate": 1481715375491,
+    "effectiveDate": 1481715375491,
+    "expiredDate": 1481715375491,
+    "quoteStatus": "DFT",
+    "containsAdditionalInfo": false,
+    "additionalInfo": {
+      "quoteCompanyName": "",
+      "contactName": "",
+      "contactTelephone": ""
+    },
+    "quoteProvinces": {
+      "provinceCode": "",
+      "provinceName": "上海"
+    },
+    "quotePriceType": "GG",
+    "accpetingHouse": {
+      "ID": "111111111",
+      "companyName": "",
+      "companyType": "",
+      "fromExternal": false,
+      "companyNamePinYin": "",
+      "companyNamePY": ""
+    },
+    "dueDate": 1481979220601,
+    "price": 1.0000,
+    "amount": 20000
+  },
+  {
+    "ID": "11111111111111",
+    "direction": "IN",
+    "bill_type": "BKB",
+    "bill_medium": "PAP",
+    "memo": "这是备注",
+    "quoteCompanyDto": {
+      "ID": "22222222",
+      "name": "上海宝钢实业",
+      "province": "上海"
+    },
+    "contactDto": {
+      "ID": "1111111111",
+      "name": "张三",
+      "mobileTel": "18236881111",
+      "qq": "123458766"
+    },
+    "operatorId": "",
+    "createDate": 1481715375491,
+    "lastUpdateDate": 1481715375491,
+    "effectiveDate": 1481715375491,
+    "expiredDate": 1481715375491,
+    "quoteStatus": "DFT",
+    "containsAdditionalInfo": false,
+    "additionalInfo": {
+      "quoteCompanyName": "",
+      "contactName": "",
+      "contactTelephone": ""
+    },
+    "quoteProvinces": {
+      "provinceCode": "",
+      "provinceName": "上海"
+    },
+    "quotePriceType": "GG",
+    "accpetingHouse": {
+      "ID": "111111111",
+      "companyName": "",
+      "companyType": "",
+      "fromExternal": false,
+      "companyNamePinYin": "",
+      "companyNamePY": ""
+    },
+    "dueDate": 1481979220601,
+    "price": 1.0000,
+    "amount": 20000
+  },
+  {
+    "ID": "11111111111111",
+    "direction": "IN",
+    "bill_type": "BKB",
+    "bill_medium": "PAP",
+    "memo": "这是备注",
+    "quoteCompanyDto": {
+      "ID": "22222222",
+      "name": "上海宝钢实业",
+      "province": "上海"
+    },
+    "contactDto": {
+      "ID": "1111111111",
+      "name": "张三",
+      "mobileTel": "18236881111",
+      "qq": "123458766"
+    },
+    "operatorId": "",
+    "createDate": 1481715375491,
+    "lastUpdateDate": 1481715375491,
+    "effectiveDate": 1481715375491,
+    "expiredDate": 1481715375491,
+    "quoteStatus": "DFT",
+    "containsAdditionalInfo": false,
+    "additionalInfo": {
+      "quoteCompanyName": "",
+      "contactName": "",
+      "contactTelephone": ""
+    },
+    "quoteProvinces": {
+      "provinceCode": "",
+      "provinceName": "上海"
+    },
+    "quotePriceType": "GG",
+    "accpetingHouse": {
+      "ID": "111111111",
+      "companyName": "",
+      "companyType": "",
+      "fromExternal": false,
+      "companyNamePinYin": "",
+      "companyNamePY": ""
+    },
+    "dueDate": 1481979220601,
+    "price": 1.0000,
+    "amount": 20000
+  },
+  {
+    "ID": "11111111111111",
+    "direction": "IN",
+    "bill_type": "BKB",
+    "bill_medium": "PAP",
+    "memo": "这是备注",
+    "quoteCompanyDto": {
+      "ID": "22222222",
+      "name": "上海宝钢实业",
+      "province": "上海"
+    },
+    "contactDto": {
+      "ID": "1111111111",
+      "name": "张三",
+      "mobileTel": "18236881111",
+      "qq": "123458766"
+    },
+    "operatorId": "",
+    "createDate": 1481715375491,
+    "lastUpdateDate": 1481715375491,
+    "effectiveDate": 1481715375491,
+    "expiredDate": 1481715375491,
+    "quoteStatus": "DFT",
+    "containsAdditionalInfo": false,
+    "additionalInfo": {
+      "quoteCompanyName": "",
+      "contactName": "",
+      "contactTelephone": ""
+    },
+    "quoteProvinces": {
+      "provinceCode": "",
+      "provinceName": "上海"
+    },
+    "quotePriceType": "GG",
+    "accpetingHouse": {
+      "ID": "111111111",
+      "companyName": "",
+      "companyType": "",
+      "fromExternal": false,
+      "companyNamePinYin": "",
+      "companyNamePY": ""
+    },
+    "dueDate": 1481979220601,
+    "price": 1.0000,
+    "amount": 20000
+  }
+]

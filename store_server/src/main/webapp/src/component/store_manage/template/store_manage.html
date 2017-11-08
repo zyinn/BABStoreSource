@@ -1,0 +1,6 @@
+<store-filter-bar item-source="$ctrl.filterBarItem" md-theme="{{$ctrl.theme}}" ng-model="$ctrl.barParam" tab-changed="$ctrl.onTabChanged(tabCode)"></store-filter-bar>
+<search-criteria-common item-source="$ctrl.filterPanelItem" md-theme="{{$ctrl.theme}}" ng-model="$ctrl.panelParam"></search-criteria-common>
+<grid-store-manage id="store_bill_list" filter-param="{panelParam:$ctrl.panelParam,barParam:$ctrl.barParam}" 
+                   edit-list-item="$ctrl.onEditListItem($event,item)" 
+                   del-list-item="$ctrl.onDelListItem($event,item)"
+                   btn-click="$ctrl.onBtnClick($event,dataDefine)"></grid-store-manage>

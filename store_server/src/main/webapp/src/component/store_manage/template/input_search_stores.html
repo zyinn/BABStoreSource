@@ -1,0 +1,19 @@
+<div layout="row" layout-align="start center">
+
+    <label ng-if="!$ctrl.label" flex="{{$ctrl.labelFlex}}"></label>
+    <label ng-if="$ctrl.label" ng-class="{'required': $ctrl.isRequired}" ng-bind-template="{{$ctrl.label}}:" flex="{{$ctrl.labelFlex}}"></label>
+
+    <div class="input-container" layout="row" flex="{{$ctrl.inputFlex}}" layout-wrap>
+        <md-autocomplete required md-selected-item="$ctrl.selectedItem" md-search-text="$ctrl.searchText" md-no-cache="true" ng-disabled="$ctrl.isDisabled" tag="{{$ctrl.isDisabled}}"
+                         md-search-text-change="$ctrl.searchTextChange()" md-selected-item-change="$ctrl.onSelectedItemChange()" md-items="item in $ctrl.searchResult"
+                         md-item-text="item.billNumber">
+            <md-item-template>
+                <span md-highlight-text="$ctrl.searchText">{{item.billNumber}}</span>
+            </md-item-template>
+        </md-autocomplete>
+
+        <!--<md-button md-no-ink aria-label="search" class="button-searchMore md-raised md-primary" ng-click="$ctrl.searchMore($event)">
+            <i class="ss-icon ss-icon-search-normal"></i>
+        </md-button>-->
+    </div>
+</div>

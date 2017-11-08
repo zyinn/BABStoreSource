@@ -1,0 +1,14 @@
+<div ng-click="$ctrl.onClickButton($event)" >
+    <div ng-repeat="item in $ctrl.itemSource" ng-if="item.bVisiable" md-theme="{{$ctrl.theme}}" ng-class="item.containerClass" class="{{item.containerAlien}}" flex="{{item.flex}}" ng-switch="item.component">
+        <div class="filter-item" ng-switch-when="barNav">
+            <bar-nav md-theme="{{$ctrl.theme}}" ng-model="item.attribute.ngModel" item-source="item.attribute.itemSource" tab-changed="$ctrl.onTabChanged(tabCode)" vm-changed="$ctrl.onVmChanged()"></bar-nav>
+        </div>
+        <div class="filter-item" ng-switch-when="mdButton">
+            <md-button md-no-ink class="md-raised md-primary" aria-label="mdButton" ng-bind="item.displayName"></md-button>
+        </div>
+        <div class="filter-item" ng-switch-when="inputDatePickerRange">
+            <input-date-picker-range vm-changed="$ctrl.onVmChanged()" md-theme="{{$ctrl.theme}}" ng-model="item.attribute.ngModel" ctrl-flex="item.attribute.flex" item-source="item.attribute.itemSource" label="{{item.attribute.label}}" vm-changed="$ctrl.onVmChanged()" ></input-date-picker-range>
+        </div>
+        <h1 ng-switch-default ng-bind-template="No input component defined for '{{item.component}}'"></h1>
+    </div>
+</div>

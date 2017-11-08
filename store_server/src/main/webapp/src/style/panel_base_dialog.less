@@ -1,0 +1,47 @@
+﻿@import "./baseLess/color";
+
+md-dialog.bab-store-dialog {
+    /*input-date-picker.fixed-datepicker .ss-datepicker-directive .qbdatepicker {
+        position: fixed;
+    }*/
+	@media screen and (max-height: 700px){
+		.md-dialog-content {
+			max-height: 400px;
+		}
+	}
+
+	.dialog-item-table {
+		max-height: 300px;
+		overflow: auto;
+	}
+    table {
+        color: @ssTextSndColor;
+        font-size: 14px;
+        padding: 0px 10px;
+        width: 100%;
+
+        thead {
+            background: #191b1c;
+
+            th {
+                color: #7b8082;
+                background-color: #191b1c;
+                white-space: nowrap;
+                text-align: left;
+            }
+        }
+
+        tbody {
+
+            tr {
+                &:nth-child(even) {
+                    background-color: @tableTrOddBgColor;
+                }
+
+                &:nth-child(even) {
+                    background-color: @tableTrEvenBgColor;
+                }
+            }
+        }
+    }
+}

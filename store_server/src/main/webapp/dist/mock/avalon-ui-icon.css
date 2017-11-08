@@ -1,0 +1,896 @@
+@charset "utf-8";
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+   
+.ss-icon {
+    display: block;
+    border-radius: 2px;
+    display: block;
+    background-image: url("avalon-ui-icon.png");    
+}
+
+.ss-icon-highlight-bg {
+    background-color: #0d7b7b;
+}
+
+.ss-icon[disabled] {
+    cursor: no-drop;
+    opacity: 0.5;
+}
+
+.ss-icon:hover {
+    opacity: 0.7;
+}
+
+.ss-icon:active {
+    opacity: 1;
+}
+
+
+
+.ss-icon-add-normal {
+  background-position: 0px -138px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-add-text-btn-disabled {
+  background-position: -60px -78px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-add-text-btn-hover {
+  background-position: -198px -120px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-add-text-btn-normal {
+  background-position: -40px -98px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-add-text-btn-pressed {
+  background-position: -238px -80px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-backward-normal {
+  background-position: -20px -138px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-ban-normal {
+  background-position: -40px -138px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-btn-download-normal {
+  background-position: -40px -78px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-calculator-normal {
+  background-position: -60px -138px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-calendar-holiday-badge {
+  background-position: -32px 0px;
+  width: 32px;
+  height: 30px;
+}
+.ss-icon-calendar-overtime-badge {
+  background-position: 0px 0px;
+  width: 32px;
+  height: 30px;
+}
+.ss-icon-cancel-top-normal {
+  background-position: -80px -138px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-candlestick-chart-normal {
+  background-position: -100px -138px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-candlestick-chart-on-normal {
+  background-position: -120px -138px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-cellphone-mini {
+  background-position: -48px -30px;
+  width: 16px;
+  height: 16px;
+}
+.ss-icon-check-box-selected {
+  background-position: -258px -75px;
+  width: 13px;
+  height: 13px;
+}
+.ss-icon-checkbox-part-selected {
+  background-position: -72px -54px;
+  width: 16px;
+  height: 16px;
+}
+.ss-icon-checkbox-selected {
+  background-position: -100px -78px;
+  width: 16px;
+  height: 16px;
+}
+.ss-icon-checkbox-unselected {
+  background-position: -200px -238px;
+  width: 16px;
+  height: 16px;
+}
+.ss-icon-close-normal {
+  background-position: -158px -20px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-close {
+  background-position: -158px 0px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-contact-group {
+  background-position: -120px -118px;
+  width: 16px;
+  height: 16px;
+}
+.ss-icon-contact-info-normal {
+  background-position: 0px -78px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-contact-single {
+  background-position: -216px -238px;
+  width: 16px;
+  height: 16px;
+}
+.ss-icon-contact-view-normal {
+  background-position: -64px 0px;
+  width: 24px;
+  height: 24px;
+}
+.ss-icon-contact-view-on-normal {
+  background-position: -64px -24px;
+  width: 24px;
+  height: 24px;
+}
+.ss-icon-copy-normal {
+  background-position: -158px -40px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-date-normal {
+  background-position: -158px -60px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-delete-item-hover {
+  background-position: -258px -33px;
+  width: 14px;
+  height: 14px;
+}
+.ss-icon-delete-item-normal {
+  background-position: -258px -47px;
+  width: 14px;
+  height: 14px;
+}
+.ss-icon-delete-item-pressed {
+  background-position: -258px -61px;
+  width: 14px;
+  height: 14px;
+}
+.ss-icon-delete-normal {
+  background-position: -158px -80px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-dialog-caution {
+  background-position: 0px -30px;
+  width: 24px;
+  height: 24px;
+}
+.ss-icon-dialog-confirm {
+  background-position: 0px -54px;
+  width: 24px;
+  height: 24px;
+}
+.ss-icon-dialog-error {
+  background-position: -24px -54px;
+  width: 24px;
+  height: 24px;
+}
+.ss-icon-dialog-success {
+  background-position: -48px -54px;
+  width: 24px;
+  height: 24px;
+}
+.ss-icon-download-noraml {
+  background-position: -158px -100px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-drag-control {
+  background-position: -88px -65px;
+  width: 24px;
+  height: 12px;
+}
+.ss-icon-drop-down-normal {
+  background-position: -118px -40px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-edit-normal {
+  background-position: -158px -120px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-email {
+  background-position: 0px -158px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-enclosure-normal {
+  background-position: -20px -158px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-enlarge-normal {
+  background-position: -40px -158px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-exchange-normal {
+  background-position: -118px -60px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-explain-selected-copy {
+  background-position: -60px -158px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-export-normal {
+  background-position: -80px -158px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-favorite-flag-normal {
+  background-position: -118px -80px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-favorite-flag-selected-normal {
+  background-position: 0px -118px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-filter-drop-hover {
+  background-position: -20px -118px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-filter-drop-normal {
+  background-position: -40px -118px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-filter-drop-pressed {
+  background-position: -60px -118px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-finish-edit-normal {
+  background-position: -100px -158px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-first-page-normal {
+  background-position: -120px -158px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-fold-down-normal {
+  background-position: -140px -158px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-foward-normal {
+  background-position: -178px 0px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-function-disabled {
+  background-position: -138px -120px;
+  width: 16px;
+  height: 16px;
+}
+.ss-icon-function-hover {
+  background-position: -158px -140px;
+  width: 16px;
+  height: 16px;
+}
+.ss-icon-function-normal {
+  background-position: -178px -160px;
+  width: 16px;
+  height: 16px;
+}
+.ss-icon-function-pressed {
+  background-position: -100px -98px;
+  width: 16px;
+  height: 16px;
+}
+.ss-icon-guanzhu {
+  background-position: -178px -20px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-help-normal {
+  background-position: -178px -40px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-histogram-normal {
+  background-position: -178px -60px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-history-normal {
+  background-position: -138px -40px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-holiday-sml {
+  background-position: -160px -158px;
+  width: 16px;
+  height: 16px;
+}
+.ss-icon-homepage-normal {
+  background-position: -178px -80px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-hot-2 {
+  background-position: -88px -30px;
+  width: 30px;
+  height: 15px;
+}
+.ss-icon-hot {
+  background-position: -88px -15px;
+  width: 30px;
+  height: 15px;
+}
+.ss-icon-i-delete-copy-4 {
+  background-position: -218px -200px;
+  width: 18px;
+  height: 18px;
+}
+.ss-icon-item-hidden-normal {
+  background-position: -140px -198px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-item-visible-normal {
+  background-position: -160px -198px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-last-page-normal {
+  background-position: -178px -100px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-line-chart-disabled- {
+  background-position: -178px -120px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-line-chart-hover- {
+  background-position: -178px -140px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-line-chart-normal {
+  background-position: 0px -178px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-line-chart-on-normal {
+  background-position: -20px -178px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-line-chart-pressed- {
+  background-position: -40px -178px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-listview-normal {
+  background-position: -218px 0px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-listview-on-normal {
+  background-position: -218px -20px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-market-normal {
+  background-position: -60px -178px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-math-add {
+  background-position: -218px -40px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-math-div {
+  background-position: -218px -60px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-math-mul {
+  background-position: -218px -80px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-math-sub {
+  background-position: -218px -100px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-maximize-normal- {
+  background-position: -80px -178px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-me-indicator {
+  background-position: -218px -120px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-mini-card-normal {
+  background-position: -218px -140px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-more-normal {
+  background-position: -218px -160px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-move-down-disabled- {
+  background-position: -218px -180px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-move-down-hover {
+  background-position: 0px -218px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-move-down-normal {
+  background-position: -20px -218px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-move-down-pressed- {
+  background-position: -40px -218px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-move-left-disabled- {
+  background-position: -60px -218px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-move-left-hover- {
+  background-position: -80px -218px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-move-left-normal {
+  background-position: -100px -218px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-move-left-pressed- {
+  background-position: -120px -218px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-move-right-disabled- {
+  background-position: -140px -218px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-move-right-hover- {
+  background-position: -160px -218px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-move-right-normal {
+  background-position: -180px -218px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-move-right-pressed- {
+  background-position: -200px -218px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-move-up-disabled- {
+  background-position: -238px 0px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-move-up-hover- {
+  background-position: -238px -20px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-move-up-normal {
+  background-position: -238px -40px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-move-up-pressed- {
+  background-position: -238px -60px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-narrow-normal {
+  background-position: -100px -178px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-new {
+  background-position: -88px 0px;
+  width: 30px;
+  height: 15px;
+}
+.ss-icon-notice-normal {
+  background-position: -120px -178px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-order-control {
+  background-position: -140px -138px;
+  width: 16px;
+  height: 16px;
+}
+.ss-icon-phone {
+  background-position: -140px -178px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-pie-chart-normal {
+  background-position: -160px -178px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-popup-normal {
+  background-position: -198px 0px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-portfolio-list {
+  background-position: -238px -220px;
+  width: 18px;
+  height: 18px;
+}
+.ss-icon-print-normal {
+  background-position: -198px -20px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-processing-map-normal {
+  background-position: -238px -140px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-qm-entry-disabled {
+  background-position: -238px -160px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-qm-entry-highlight {
+  background-position: -238px -180px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-qm-entry-hover {
+  background-position: -238px -200px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-qm-entry-normal {
+  background-position: 0px -238px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-qm-entry-offline-disabled {
+  background-position: -20px -238px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-qm-entry-offline-hover {
+  background-position: -40px -238px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-qm-entry-offline-normal {
+  background-position: -60px -238px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-qm-entry-offline-pressed {
+  background-position: -80px -238px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-qm-entry-pressed {
+  background-position: -100px -238px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-qm-indicator-group-disabled {
+  background-position: -120px -238px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-qm-indicator-group-hover {
+  background-position: -140px -238px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-qm-indicator-group-normal {
+  background-position: -160px -238px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-qm-indicator-group-pressed {
+  background-position: -238px -120px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-qm-indicator-more-disabled {
+  background-position: -238px -100px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-qm-indicator-more-hover {
+  background-position: -180px -198px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-qm-indicator-more-normal {
+  background-position: -40px -198px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-qm-indicator-more-pressed {
+  background-position: -138px -60px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-qm-indicator-single-disabled {
+  background-position: -138px -20px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-qm-indicator-single-hover {
+  background-position: -138px 0px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-qm-indicator-single-normal {
+  background-position: -100px -118px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-qm-indicator-single-pressed {
+  background-position: -80px -118px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-qm-indicator-whole-market-disabled {
+  background-position: -118px -20px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-qm-indicator-whole-market-hover {
+  background-position: -20px -98px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-qm-indicator-whole-market-normal {
+  background-position: 0px -98px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-qm-indicator-whole-market-pressed {
+  background-position: -80px -78px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-qq-original-normal {
+  background-position: -20px -78px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-quote-indicator-type-chg {
+  background-position: -258px -11px;
+  width: 23px;
+  height: 11px;
+}
+.ss-icon-quote-indicator-type-gvn {
+  background-position: -258px 0px;
+  width: 23px;
+  height: 11px;
+}
+.ss-icon-quote-indicator-type-tkn {
+  background-position: -258px -22px;
+  width: 23px;
+  height: 11px;
+}
+.ss-icon-quote-indicator-type-trd {
+  background-position: -232px -238px;
+  width: 23px;
+  height: 11px;
+}
+.ss-icon-quotes-history-normal {
+  background-position: -24px -30px;
+  width: 24px;
+  height: 24px;
+}
+.ss-icon-radiobutton-selected {
+  background-position: -180px -178px;
+  width: 16px;
+  height: 16px;
+}
+.ss-icon-radiobutton-unselected-disabled {
+  background-position: -220px -218px;
+  width: 16px;
+  height: 16px;
+}
+.ss-icon-radiobutton-unselected {
+  background-position: -200px -198px;
+  width: 16px;
+  height: 16px;
+}
+.ss-icon-refresh-title-bar-normal {
+  background-position: -138px -100px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-restore-normal {
+  background-position: -198px -40px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-search-location-normal-copy {
+  background-position: -198px -60px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-search-location-normal {
+  background-position: -198px -80px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-search-normal {
+  background-position: -198px -100px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-setting-min-normal {
+  background-position: -88px -45px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-share-normal {
+  background-position: -198px -160px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-share2-normal {
+  background-position: -198px -140px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-sumscope-icon-library-2 {
+  background-position: -268px -88px;
+  width: 10px;
+  height: 10px;
+}
+.ss-icon-sumscope-icon-library-3 {
+  background-position: -271px -75px;
+  width: 10px;
+  height: 10px;
+}
+.ss-icon-sumscope-icon-library {
+  background-position: -258px -88px;
+  width: 10px;
+  height: 10px;
+}
+.ss-icon-tanru-normal {
+  background-position: 0px -198px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-telephone-mini {
+  background-position: -118px -100px;
+  width: 16px;
+  height: 16px;
+}
+.ss-icon-term-normal {
+  background-position: -20px -198px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-term-region-normal {
+  background-position: -138px -80px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-term-region-on-normal {
+  background-position: -118px 0px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-text-comment-normal {
+  background-position: -80px -98px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-tips {
+  background-position: -198px -180px;
+  width: 17px;
+  height: 17px;
+}
+.ss-icon-top-normal {
+  background-position: -60px -198px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-upward-fold-normal {
+  background-position: -80px -198px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-upward-normal {
+  background-position: -100px -198px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-window-downsize-normal {
+  background-position: -60px -98px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-window-minimize-normal {
+  background-position: -180px -238px;
+  width: 20px;
+  height: 20px;
+}
+.ss-icon-window-top-normal {
+  background-position: -120px -198px;
+  width: 20px;
+  height: 20px;
+}
