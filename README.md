@@ -29,4 +29,4 @@ BABStoreSource
         <!--Pom-Sumscope-Parent 要求给出master分支名称，以支持版本发布-->
         <gitflow.masterbranch.name>release_branch_1.0.x</gitflow.masterbranch.name>
     </properties>
-    ```
+```
